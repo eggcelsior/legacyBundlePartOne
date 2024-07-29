@@ -1,6 +1,14 @@
 {
   "values": [
     "thedeep:depthstone",
-    "thedeep:depthstone_bricks"
+    "thedeep:depthstone_bricks",
+    "thedeep:chiseled_depthstone",
+    "thedeep:polished_depthstone",
+    "thedeep:depthstone_stairs",
+    "thedeep:polished_depthstone_stairs",
+    "thedeep:depthstone_brick_stairs",
+    "thedeep:depthstone_slab",
+    "thedeep:polished_depthstone_slab",
+    "thedeep:depthstone_brick_slab"
   ]
 }

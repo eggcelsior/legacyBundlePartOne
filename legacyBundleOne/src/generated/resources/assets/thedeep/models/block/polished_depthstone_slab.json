@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "thedeep:block/polished_depthstone",
+    "side": "thedeep:block/polished_depthstone",
+    "top": "thedeep:block/polished_depthstone"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "thedeep:block/depthstone_bricks",
+    "side": "thedeep:block/depthstone_bricks",
+    "top": "thedeep:block/depthstone_bricks"
+  }
+}

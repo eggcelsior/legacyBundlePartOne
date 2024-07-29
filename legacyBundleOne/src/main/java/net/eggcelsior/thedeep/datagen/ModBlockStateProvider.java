@@ -7,6 +7,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -19,6 +20,24 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.DEPTHSTONE);
         blockWithItem(ModBlocks.DEPTHSTONE_BRICKS);
+        blockWithItem(ModBlocks.CHISELED_DEPTHSTONE);
+        blockWithItem(ModBlocks.POLISHED_DEPTHSTONE);
+
+        stairsBlock((StairBlock) ModBlocks.DEPTHSTONE_STAIRS.get(), blockTexture(ModBlocks.DEPTHSTONE.get()));
+        stairsBlock((StairBlock) ModBlocks.POLISHED_DEPTHSTONE_STAIRS.get(), blockTexture(ModBlocks.POLISHED_DEPTHSTONE.get()));
+        stairsBlock((StairBlock) ModBlocks.DEPTHSTONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.DEPTHSTONE_BRICKS.get()));
+
+        slabBlock(((SlabBlock) ModBlocks.DEPTHSTONE_SLAB.get()), blockTexture(ModBlocks.DEPTHSTONE.get()), blockTexture(ModBlocks.DEPTHSTONE.get()));
+        slabBlock(((SlabBlock) ModBlocks.POLISHED_DEPTHSTONE_SLAB.get()), blockTexture(ModBlocks.POLISHED_DEPTHSTONE.get()), blockTexture(ModBlocks.POLISHED_DEPTHSTONE.get()));
+        slabBlock(((SlabBlock) ModBlocks.DEPTHSTONE_BRICK_SLAB.get()), blockTexture(ModBlocks.DEPTHSTONE_BRICKS.get()), blockTexture(ModBlocks.DEPTHSTONE_BRICKS.get()));
+
+        blockItem(ModBlocks.DEPTHSTONE_STAIRS);
+        blockItem(ModBlocks.POLISHED_DEPTHSTONE_STAIRS);
+        blockItem(ModBlocks.DEPTHSTONE_BRICK_STAIRS);
+
+        blockItem(ModBlocks.DEPTHSTONE_SLAB);
+        blockItem(ModBlocks.POLISHED_DEPTHSTONE_SLAB);
+        blockItem(ModBlocks.DEPTHSTONE_BRICK_SLAB);
     }
 
     private void blockItem(RegistryObject<Block> blockRegistryObject, String appendix) {

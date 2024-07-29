@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.fml.common.Mod;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -23,11 +24,27 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.DEPTHSTONE.get(),
-                        ModBlocks.DEPTHSTONE_BRICKS.get());
+                        ModBlocks.DEPTHSTONE_BRICKS.get(),
+                        ModBlocks.CHISELED_DEPTHSTONE.get(),
+                        ModBlocks.POLISHED_DEPTHSTONE.get(),
+                        ModBlocks.DEPTHSTONE_STAIRS.get(),
+                        ModBlocks.POLISHED_DEPTHSTONE_STAIRS.get(),
+                        ModBlocks.DEPTHSTONE_BRICK_STAIRS.get(),
+                        ModBlocks.DEPTHSTONE_SLAB.get(),
+                        ModBlocks.POLISHED_DEPTHSTONE_SLAB.get(),
+                        ModBlocks.DEPTHSTONE_BRICK_SLAB.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.DEPTHSTONE.get(),
-                        ModBlocks.DEPTHSTONE_BRICKS.get());
+                        ModBlocks.DEPTHSTONE_BRICKS.get(),
+                        ModBlocks.CHISELED_DEPTHSTONE.get(),
+                        ModBlocks.POLISHED_DEPTHSTONE.get(),
+                        ModBlocks.DEPTHSTONE_STAIRS.get(),
+                        ModBlocks.POLISHED_DEPTHSTONE_STAIRS.get(),
+                        ModBlocks.DEPTHSTONE_BRICK_STAIRS.get(),
+                        ModBlocks.DEPTHSTONE_SLAB.get(),
+                        ModBlocks.POLISHED_DEPTHSTONE_SLAB.get(),
+                        ModBlocks.DEPTHSTONE_BRICK_SLAB.get());
         /*this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
                 .add(ModBlocks.ALEXANDRITE_ORE.get()).addTag(Tags.Blocks.ORES);
 

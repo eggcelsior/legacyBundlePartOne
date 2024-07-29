@@ -2,5 +2,15 @@
   "creativetab.thedeep": "The Deep",
 
   "block.thedeep.depthstone": "Depthstone",
-  "block.thedeep.depthstone_bricks": "Depthstone Bricks"
+  "block.thedeep.depthstone_bricks": "Depthstone Bricks",
+  "block.thedeep.chiseled_depthstone": "Chiseled Depthstone",
+  "block.thedeep.polished_depthstone": "Polished Depthstone",
+
+  "block.thedeep.depthstone_stairs": "Depthstone Stairs",
+  "block.thedeep.polished_depthstone_stairs": "Polished Depthstone Stairs",
+  "block.thedeep.depthstone_brick_stairs": "Depthstone Brick Stairs",
+
+  "block.thedeep.depthstone_slab": "Depthstone Slab",
+  "block.thedeep.polished_depthstone_slab": "Polished Depthstone Slab",
+  "block.thedeep.depthstone_brick_slab": "Depthstone Brick Slab"
 }

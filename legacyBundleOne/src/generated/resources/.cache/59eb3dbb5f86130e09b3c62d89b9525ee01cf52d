@@ -1,3 +1,11 @@
-// 1.20	2024-07-28T19:58:05.8749501	Loot Tables
+// 1.20.1	2024-07-29T00:48:45.5520515	Loot Tables
+b7ff05e3186b35ebd473dfb5aa9f930de397c690 data/thedeep/loot_tables/blocks/chiseled_depthstone.json
 5df1dbecc7bac865cf8d80b21ad9c60649929268 data/thedeep/loot_tables/blocks/depthstone.json
 c94705ca741bcb0050e2f482375d59d2ff782cd6 data/thedeep/loot_tables/blocks/depthstone_bricks.json
+0e3091d98b479678584307d596fb3ad446f0fbda data/thedeep/loot_tables/blocks/depthstone_brick_slab.json
+9acb143533903d9fb6103e37d1b82d8b6e81f942 data/thedeep/loot_tables/blocks/depthstone_brick_stairs.json
+2d86b50cd288082f7ec9e6d21b8e4772403b23b5 data/thedeep/loot_tables/blocks/depthstone_slab.json
+afc4cba5d3aed9ff960a89d7d67b78e649b299c7 data/thedeep/loot_tables/blocks/depthstone_stairs.json
+6bc5b632d3d26996df23fbf83e663a480a41170f data/thedeep/loot_tables/blocks/polished_depthstone.json
+4a5f1379eb43f3e54a91007bf604fc1129de6607 data/thedeep/loot_tables/blocks/polished_depthstone_slab.json
+3c79040221b5055d99b192376faf264f75d11879 data/thedeep/loot_tables/blocks/polished_depthstone_stairs.json

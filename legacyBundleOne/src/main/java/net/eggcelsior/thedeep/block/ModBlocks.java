@@ -7,9 +7,7 @@ import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -28,6 +26,30 @@ public class ModBlocks{
 
     public static final RegistryObject<Block> DEPTHSTONE_BRICKS = registerBlock("depthstone_bricks",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE), UniformInt.of(1, 2)));
+
+    public static final RegistryObject<Block> CHISELED_DEPTHSTONE = registerBlock("chiseled_depthstone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> POLISHED_DEPTHSTONE = registerBlock("polished_depthstone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DEPTHSTONE_STAIRS = registerBlock("depthstone_stairs",
+            () -> new StairBlock(() -> ModBlocks.DEPTHSTONE.get().defaultBlockState() ,BlockBehaviour.Properties.copy(Blocks.STONE_STAIRS)));
+
+    public static final RegistryObject<Block> POLISHED_DEPTHSTONE_STAIRS = registerBlock("polished_depthstone_stairs",
+            () -> new StairBlock(() -> ModBlocks.POLISHED_DEPTHSTONE.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE_STAIRS)));
+
+    public static final RegistryObject<Block> DEPTHSTONE_BRICK_STAIRS = registerBlock("depthstone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.DEPTHSTONE_BRICKS.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.STONE_STAIRS)));
+
+    public static final RegistryObject<Block> DEPTHSTONE_SLAB = registerBlock("depthstone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> POLISHED_DEPTHSTONE_SLAB = registerBlock("polished_depthstone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DEPTHSTONE_BRICK_SLAB = registerBlock("depthstone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

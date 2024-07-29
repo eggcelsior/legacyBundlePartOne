@@ -21,6 +21,16 @@ public class ModCreativeModeTabs {
                     .displayItems((displayParameters, output) -> {
                         output.accept(ModBlocks.DEPTHSTONE.get());
                         output.accept(ModBlocks.DEPTHSTONE_BRICKS.get());
+                        output.accept(ModBlocks.CHISELED_DEPTHSTONE.get());
+                        output.accept(ModBlocks.POLISHED_DEPTHSTONE.get());
+
+                        output.accept(ModBlocks.DEPTHSTONE_STAIRS.get());
+                        output.accept(ModBlocks.POLISHED_DEPTHSTONE_STAIRS.get());
+                        output.accept(ModBlocks.DEPTHSTONE_BRICK_STAIRS.get());
+
+                        output.accept(ModBlocks.DEPTHSTONE_SLAB.get());
+                        output.accept(ModBlocks.POLISHED_DEPTHSTONE_SLAB.get());
+                        output.accept(ModBlocks.DEPTHSTONE_BRICK_SLAB.get());
                     }).build());
 
 

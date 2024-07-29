@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thedeep:block/depthstone_slab"
+    },
+    "type=double": {
+      "model": "thedeep:block/depthstone"
+    },
+    "type=top": {
+      "model": "thedeep:block/depthstone_slab_top"
+    }
+  }
+}
