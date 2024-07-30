@@ -15,7 +15,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropSelf(ModBlocks.DEPTHSTONE.get());
+        this.dropOther(ModBlocks.DEPTHSTONE.get(), ModBlocks.COBBLED_DEPTHSTONE.get());
+        //this.dropSelf(ModBlocks.DEPTHSTONE.get());
         this.dropSelf(ModBlocks.DEPTHSTONE_BRICKS.get());
         this.dropSelf(ModBlocks.POLISHED_DEPTHSTONE.get());
         this.dropSelf(ModBlocks.CHISELED_DEPTHSTONE.get());
@@ -23,6 +24,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DEPTHSTONE_STAIRS.get());
         this.dropSelf(ModBlocks.DEPTHSTONE_BRICK_STAIRS.get());
         this.dropSelf(ModBlocks.POLISHED_DEPTHSTONE_STAIRS.get());
+        this.dropSelf(ModBlocks.COBBLED_DEPTHSTONE.get());
 
         this.dropSelf(ModBlocks.UNDERSTONE.get());
         this.dropSelf(ModBlocks.UNDERSTONE_PILLAR.get());
@@ -31,7 +33,18 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.UNDERSTONE_TILES.get());
         this.dropSelf(ModBlocks.UNDERSTONE_TILE_STAIRS.get());
         this.dropSelf(ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get());
+        this.dropSelf(ModBlocks.CLEAN_UNDERSTONE_BRICKS.get());
         this.dropSelf(ModBlocks.CHISELED_ULTRAMARINE.get());
+        this.dropSelf(ModBlocks.ULTRAMARINE_BLOCK.get());
+        this.dropSelf(ModBlocks.ULTRAMARINE_GRATE.get());
+
+        this.dropSelf(ModBlocks.CHISELED_UNDERSTONE_1.get());
+        this.dropSelf(ModBlocks.CHISELED_UNDERSTONE_2.get());
+        this.dropSelf(ModBlocks.CHISELED_UNDERSTONE_3.get());
+        this.dropSelf(ModBlocks.CHISELED_UNDERSTONE_4.get());
+        this.dropSelf(ModBlocks.CHISELED_UNDERSTONE_5.get());
+        this.dropSelf(ModBlocks.CHISELED_UNDERSTONE_6.get());
+        this.dropSelf(ModBlocks.CHISELED_UNDERSTONE_7.get());
 
         this.add(ModBlocks.DEPTHSTONE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.DEPTHSTONE_SLAB.get()));

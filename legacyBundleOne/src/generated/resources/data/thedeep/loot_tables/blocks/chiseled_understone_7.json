@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "thedeep:cobbled_depthstone"
+          "name": "thedeep:chiseled_understone_7"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "thedeep:blocks/depthstone"
+  "random_sequence": "thedeep:blocks/chiseled_understone_7"
 }

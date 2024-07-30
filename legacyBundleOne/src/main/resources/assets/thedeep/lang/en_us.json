@@ -2,6 +2,7 @@
   "creativetab.thedeep": "The Deep",
 
   "block.thedeep.depthstone": "Depthstone",
+  "block.thedeep.cobbled_depthstone": "Cobbled Depthstone",
   "block.thedeep.depthstone_bricks": "Depthstone Bricks",
   "block.thedeep.chiseled_depthstone": "Chiseled Depthstone",
   "block.thedeep.polished_depthstone": "Polished Depthstone",
@@ -22,6 +23,16 @@
   "block.thedeep.weathered_understone_bricks": "Weathered Understone Bricks",
   "block.thedeep.understone_tile_stairs": "Understone Tile Stairs",
   "block.thedeep.understone_tile_slab": "Understone Tile Slab",
-  "block.thedeep.chiseled_ultramarine": "Chiseled Ultramarine"
+  "block.thedeep.chiseled_ultramarine": "Chiseled Ultramarine",
+  "block.thedeep.ultramarine_block": "Ultramarine Block",
+  "block.thedeep.ultramarine_grate": "Ultramarine Grate",
+  "block.thedeep.clean_understone_bricks": "Clean Understone Bricks",
 
+  "block.thedeep.chiseled_understone_1": "Chiseled Understone",
+  "block.thedeep.chiseled_understone_2": "Chiseled Understone",
+  "block.thedeep.chiseled_understone_3": "Chiseled Understone",
+  "block.thedeep.chiseled_understone_4": "Chiseled Understone",
+  "block.thedeep.chiseled_understone_5": "Chiseled Understone",
+  "block.thedeep.chiseled_understone_6": "Chiseled Understone",
+  "block.thedeep.chiseled_understone_7": "Chiseled Understone"
 }

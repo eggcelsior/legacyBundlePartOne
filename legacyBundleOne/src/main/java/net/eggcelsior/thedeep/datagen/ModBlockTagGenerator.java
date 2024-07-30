@@ -41,7 +41,18 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get(),
                         ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get(),
                         ModBlocks.UNDERSTONE_TILE_STAIRS.get(),
-                        ModBlocks.UNDERSTONE_TILE_SLAB.get());
+                        ModBlocks.UNDERSTONE_TILE_SLAB.get(),
+                        ModBlocks.ULTRAMARINE_BLOCK.get(),
+                        ModBlocks.ULTRAMARINE_GRATE.get(),
+                        ModBlocks.CLEAN_UNDERSTONE_BRICKS.get(),
+                        ModBlocks.COBBLED_DEPTHSTONE.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_1.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_2.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_3.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_4.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_5.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_6.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_7.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.DEPTHSTONE.get(),
@@ -58,7 +69,18 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.UNDERSTONE_PILLAR.get(),
                         ModBlocks.UNDERSTONE_PILLAR.get(),
                         ModBlocks.UNDERSTONE_TILE_STAIRS.get(),
-                        ModBlocks.UNDERSTONE_TILE_SLAB.get());
+                        ModBlocks.UNDERSTONE_TILE_SLAB.get(),
+                        ModBlocks.ULTRAMARINE_BLOCK.get(),
+                        ModBlocks.ULTRAMARINE_GRATE.get(),
+                        ModBlocks.CLEAN_UNDERSTONE_BRICKS.get(),
+                        ModBlocks.COBBLED_DEPTHSTONE.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_1.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_2.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_3.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_4.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_5.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_6.get(),
+                        ModBlocks.CHISELED_UNDERSTONE_7.get());
         /*this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
                 .add(ModBlocks.ALEXANDRITE_ORE.get()).addTag(Tags.Blocks.ORES);
 

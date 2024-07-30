@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "thedeep:block/chiseled_blue_metal"
+    "all": "thedeep:block/chiseled_understone_5"
   }
 }
