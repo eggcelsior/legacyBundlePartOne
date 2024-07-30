@@ -2,9 +2,7 @@ package net.eggcelsior.thedeep.block;
 
 import net.eggcelsior.thedeep.TheDeepMod;
 import net.eggcelsior.thedeep.item.ModItems;
-import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.util.valueproviders.UniformInt;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -14,7 +12,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.util.Set;
 import java.util.function.Supplier;
 
 public class ModBlocks{
@@ -69,8 +66,15 @@ public class ModBlocks{
     public static final RegistryObject<Block> WEATHERED_UNDERSTONE_BRICKS = registerBlock("weathered_understone_bricks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
-    public static final RegistryObject<Block> CHISELED_BLUE_METAL = registerBlock("chiseled_blue_metal",
+    public static final RegistryObject<Block> CHISELED_ULTRAMARINE = registerBlock("chiseled_ultramarine",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+
+    public static final RegistryObject<Block> UNDERSTONE_TILE_STAIRS = registerBlock("understone_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.UNDERSTONE_TILES.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.STONE_STAIRS)));
+
+    public static final RegistryObject<Block> UNDERSTONE_TILE_SLAB = registerBlock("understone_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

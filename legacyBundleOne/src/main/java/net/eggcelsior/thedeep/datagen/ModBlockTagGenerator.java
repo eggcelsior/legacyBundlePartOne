@@ -39,7 +39,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.FITTED_UNDERSTONE_BRICKS.get(),
                         ModBlocks.UNDERSTONE_TILES.get(),
                         ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get(),
-                        ModBlocks.CHISELED_BLUE_METAL.get());
+                        ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get(),
+                        ModBlocks.UNDERSTONE_TILE_STAIRS.get(),
+                        ModBlocks.UNDERSTONE_TILE_SLAB.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.DEPTHSTONE.get(),
@@ -54,7 +56,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DEPTHSTONE_BRICK_SLAB.get(),
                         ModBlocks.UNDERSTONE.get(),
                         ModBlocks.UNDERSTONE_PILLAR.get(),
-                        ModBlocks.CHISELED_BLUE_METAL.get());
+                        ModBlocks.UNDERSTONE_PILLAR.get(),
+                        ModBlocks.UNDERSTONE_TILE_STAIRS.get(),
+                        ModBlocks.UNDERSTONE_TILE_SLAB.get());
         /*this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
                 .add(ModBlocks.ALEXANDRITE_ORE.get()).addTag(Tags.Blocks.ORES);
 

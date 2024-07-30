@@ -7,7 +7,6 @@ import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -29,7 +28,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.FITTED_UNDERSTONE_BRICKS);
         blockWithItem(ModBlocks.UNDERSTONE_TILES);
         blockWithItem(ModBlocks.WEATHERED_UNDERSTONE_BRICKS);
-        blockWithItem(ModBlocks.CHISELED_BLUE_METAL);
+        blockWithItem(ModBlocks.CHISELED_ULTRAMARINE);
+        stairsBlock((StairBlock) ModBlocks.UNDERSTONE_TILE_STAIRS.get(), blockTexture(ModBlocks.UNDERSTONE_TILES.get()));
 
         stairsBlock((StairBlock) ModBlocks.DEPTHSTONE_STAIRS.get(), blockTexture(ModBlocks.DEPTHSTONE.get()));
         stairsBlock((StairBlock) ModBlocks.POLISHED_DEPTHSTONE_STAIRS.get(), blockTexture(ModBlocks.POLISHED_DEPTHSTONE.get()));
@@ -38,6 +38,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(((SlabBlock) ModBlocks.DEPTHSTONE_SLAB.get()), blockTexture(ModBlocks.DEPTHSTONE.get()), blockTexture(ModBlocks.DEPTHSTONE.get()));
         slabBlock(((SlabBlock) ModBlocks.POLISHED_DEPTHSTONE_SLAB.get()), blockTexture(ModBlocks.POLISHED_DEPTHSTONE.get()), blockTexture(ModBlocks.POLISHED_DEPTHSTONE.get()));
         slabBlock(((SlabBlock) ModBlocks.DEPTHSTONE_BRICK_SLAB.get()), blockTexture(ModBlocks.DEPTHSTONE_BRICKS.get()), blockTexture(ModBlocks.DEPTHSTONE_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.UNDERSTONE_TILE_SLAB.get()), blockTexture(ModBlocks.UNDERSTONE_TILES.get()), blockTexture(ModBlocks.UNDERSTONE_TILES.get()));
 
         blockItem(ModBlocks.DEPTHSTONE_STAIRS);
         blockItem(ModBlocks.POLISHED_DEPTHSTONE_STAIRS);
@@ -46,6 +47,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.DEPTHSTONE_SLAB);
         blockItem(ModBlocks.POLISHED_DEPTHSTONE_SLAB);
         blockItem(ModBlocks.DEPTHSTONE_BRICK_SLAB);
+
+        blockItem(ModBlocks.UNDERSTONE_TILE_STAIRS);
+        blockItem(ModBlocks.UNDERSTONE_TILE_SLAB);
     }
 
     private void blockItem(RegistryObject<Block> blockRegistryObject, String appendix) {

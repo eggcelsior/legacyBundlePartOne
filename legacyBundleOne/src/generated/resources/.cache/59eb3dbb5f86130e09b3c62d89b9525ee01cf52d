@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-29T20:10:33.8168333	Loot Tables
+// 1.20.1	2024-07-29T23:54:16.379369	Loot Tables
 28838a89bcd48a4ba0ad51b6ef37a49f023eef6f data/thedeep/loot_tables/blocks/chiseled_blue_metal.json
 b7ff05e3186b35ebd473dfb5aa9f930de397c690 data/thedeep/loot_tables/blocks/chiseled_depthstone.json
 2caf95035ee8113450952b0899fd61bd8d433b05 data/thedeep/loot_tables/blocks/cobbled_understone.json
@@ -15,4 +15,6 @@ abe5b306c6daad6b213ed59959578d3fa7983843 data/thedeep/loot_tables/blocks/fitted_
 082fcf16263ae340d8197135e292a2225793ca78 data/thedeep/loot_tables/blocks/understone.json
 915913c78af6ee1e0f34fce144df59a0751141f1 data/thedeep/loot_tables/blocks/understone_pillar.json
 d633fef3b1339c8058bd1e24df54e15055ea9136 data/thedeep/loot_tables/blocks/understone_tiles.json
+34eea9461af3ddb193500dca25f219e9cffdee5c data/thedeep/loot_tables/blocks/understone_tile_slab.json
+1c8a51c81aebce7a528876bd2a3e99dbefb811d6 data/thedeep/loot_tables/blocks/understone_tile_stairs.json
 db13b78d94dbb0c0a2fe74480c4c9f1b51e89d98 data/thedeep/loot_tables/blocks/weathered_understone_bricks.json
