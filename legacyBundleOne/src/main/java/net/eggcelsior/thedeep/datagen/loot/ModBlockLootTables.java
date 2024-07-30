@@ -24,6 +24,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DEPTHSTONE_BRICK_STAIRS.get());
         this.dropSelf(ModBlocks.POLISHED_DEPTHSTONE_STAIRS.get());
 
+        this.dropSelf(ModBlocks.UNDERSTONE.get());
+        this.dropSelf(ModBlocks.UNDERSTONE_PILLAR.get());
+        this.dropSelf(ModBlocks.COBBLED_UNDERSTONE.get());
+        this.dropSelf(ModBlocks.FITTED_UNDERSTONE_BRICKS.get());
+        this.dropSelf(ModBlocks.UNDERSTONE_TILES.get());
+        this.dropSelf(ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get());
+
         this.add(ModBlocks.DEPTHSTONE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.DEPTHSTONE_SLAB.get()));
         this.add(ModBlocks.POLISHED_DEPTHSTONE_SLAB.get(),

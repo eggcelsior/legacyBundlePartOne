@@ -12,5 +12,13 @@
 
   "block.thedeep.depthstone_slab": "Depthstone Slab",
   "block.thedeep.polished_depthstone_slab": "Polished Depthstone Slab",
-  "block.thedeep.depthstone_brick_slab": "Depthstone Brick Slab"
+  "block.thedeep.depthstone_brick_slab": "Depthstone Brick Slab",
+
+  "block.thedeep.understone": "Understone",
+  "block.thedeep.understone_pillar": "Understone Pillar",
+  "block.thedeep.cobbled_understone": "Cobbled Understone",
+  "block.thedeep.fitted_understone_bricks": "Fitted Understone Bricks",
+  "block.thedeep.understone_tiles": "Understone Tiles",
+  "block.thedeep.weathered_understone_bricks": "Weathered Understone Bricks"
+
 }

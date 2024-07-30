@@ -51,6 +51,24 @@ public class ModBlocks{
     public static final RegistryObject<Block> DEPTHSTONE_BRICK_SLAB = registerBlock("depthstone_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
+    public static final RegistryObject<Block> UNDERSTONE = registerBlock("understone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> UNDERSTONE_PILLAR = registerBlock("understone_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BASALT)));
+
+    public static final RegistryObject<Block> COBBLED_UNDERSTONE = registerBlock("cobbled_understone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> FITTED_UNDERSTONE_BRICKS = registerBlock("fitted_understone_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> UNDERSTONE_TILES = registerBlock("understone_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> WEATHERED_UNDERSTONE_BRICKS = registerBlock("weathered_understone_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

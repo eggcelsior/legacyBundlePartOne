@@ -31,6 +31,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEPTHSTONE_SLAB.get());
                         output.accept(ModBlocks.POLISHED_DEPTHSTONE_SLAB.get());
                         output.accept(ModBlocks.DEPTHSTONE_BRICK_SLAB.get());
+                        output.accept(ModBlocks.UNDERSTONE.get());
+                        output.accept(ModBlocks.UNDERSTONE_PILLAR.get());
+                        output.accept(ModBlocks.COBBLED_UNDERSTONE.get());
+                        output.accept(ModBlocks.FITTED_UNDERSTONE_BRICKS.get());
+                        output.accept(ModBlocks.UNDERSTONE_TILES.get());
+                        output.accept(ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get());
                     }).build());
 
 

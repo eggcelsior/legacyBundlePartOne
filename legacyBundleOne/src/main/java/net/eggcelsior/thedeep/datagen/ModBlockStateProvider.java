@@ -23,6 +23,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.CHISELED_DEPTHSTONE);
         blockWithItem(ModBlocks.POLISHED_DEPTHSTONE);
 
+        blockWithItem(ModBlocks.UNDERSTONE);
+        blockWithItem(ModBlocks.UNDERSTONE_PILLAR);
+        blockWithItem(ModBlocks.COBBLED_UNDERSTONE);
+        blockWithItem(ModBlocks.FITTED_UNDERSTONE_BRICKS);
+        blockWithItem(ModBlocks.UNDERSTONE_TILES);
+        blockWithItem(ModBlocks.WEATHERED_UNDERSTONE_BRICKS);
+
         stairsBlock((StairBlock) ModBlocks.DEPTHSTONE_STAIRS.get(), blockTexture(ModBlocks.DEPTHSTONE.get()));
         stairsBlock((StairBlock) ModBlocks.POLISHED_DEPTHSTONE_STAIRS.get(), blockTexture(ModBlocks.POLISHED_DEPTHSTONE.get()));
         stairsBlock((StairBlock) ModBlocks.DEPTHSTONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.DEPTHSTONE_BRICKS.get()));
