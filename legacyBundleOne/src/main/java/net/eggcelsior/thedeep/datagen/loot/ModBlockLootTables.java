@@ -4,6 +4,7 @@ import net.eggcelsior.thedeep.block.ModBlocks;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Set;
@@ -30,6 +31,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.FITTED_UNDERSTONE_BRICKS.get());
         this.dropSelf(ModBlocks.UNDERSTONE_TILES.get());
         this.dropSelf(ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get());
+        this.dropSelf(ModBlocks.CHISELED_BLUE_METAL.get());
 
         this.add(ModBlocks.DEPTHSTONE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.DEPTHSTONE_SLAB.get()));

@@ -1,4 +1,5 @@
-// 1.20.1	2024-07-29T18:45:09.8037101	Block States: thedeep
+// 1.20.1	2024-07-29T20:10:33.8188341	Block States: thedeep
+c8c58e2dc55b4c0bee08274dda8ac2f81b631af4 assets/thedeep/blockstates/chiseled_blue_metal.json
 0c2f1790d08fab3fb1e4129983a9c3f8cd220721 assets/thedeep/blockstates/chiseled_depthstone.json
 23bb7152b48df5e95132f2bc3220802552d23450 assets/thedeep/blockstates/cobbled_understone.json
 a0c8564546d0df7e347648bf153dc1bcdd736a12 assets/thedeep/blockstates/depthstone.json
@@ -15,6 +16,7 @@ dd64079e577a1732e98719c1178c576b552cc149 assets/thedeep/blockstates/understone.j
 0602a7a444dd9b1aee989d7407d2dbd1f5256afa assets/thedeep/blockstates/understone_pillar.json
 0c9cb810c0c8b8d6d957828e5c3472962802130d assets/thedeep/blockstates/understone_tiles.json
 907fe84a87de2ae80e9e4676879d17d2cc818b04 assets/thedeep/blockstates/weathered_understone_bricks.json
+d0103a0742b3cc95d081aa17256ebefa52528ae9 assets/thedeep/models/block/chiseled_blue_metal.json
 415a44b43818455292bd3bc82dc40da678dcb43b assets/thedeep/models/block/chiseled_depthstone.json
 bfb7aace23e3aa5df38de5559ade044bfad03177 assets/thedeep/models/block/cobbled_understone.json
 de1d3af5c688bb4c16584129de9b6d886249fb25 assets/thedeep/models/block/depthstone.json
@@ -40,6 +42,7 @@ d8b63b47eb61e52cf56bc6c0f27686ccce2ab437 assets/thedeep/models/block/polished_de
 9cdf9a854ca1a86435dade229deeef7d32c47b9b assets/thedeep/models/block/understone_pillar.json
 3754902ccc001313b7228cb42de02501b3f8443d assets/thedeep/models/block/understone_tiles.json
 8ef1205813f8532aeee0c1f3086879aed218ccab assets/thedeep/models/block/weathered_understone_bricks.json
+b9523fbbe7bb0e86fadac29acbb033a957bb699d assets/thedeep/models/item/chiseled_blue_metal.json
 05c805a1096a76dca4019216b7a22da2cf3a4f08 assets/thedeep/models/item/chiseled_depthstone.json
 dd0fde65e8740e61dca60fec2b91152a6268a82e assets/thedeep/models/item/cobbled_understone.json
 de818458aa7f4e9df4c33389818e25316f6c2f47 assets/thedeep/models/item/depthstone.json

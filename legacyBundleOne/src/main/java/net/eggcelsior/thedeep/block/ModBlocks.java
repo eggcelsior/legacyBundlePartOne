@@ -69,6 +69,9 @@ public class ModBlocks{
     public static final RegistryObject<Block> WEATHERED_UNDERSTONE_BRICKS = registerBlock("weathered_understone_bricks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
+    public static final RegistryObject<Block> CHISELED_BLUE_METAL = registerBlock("chiseled_blue_metal",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
