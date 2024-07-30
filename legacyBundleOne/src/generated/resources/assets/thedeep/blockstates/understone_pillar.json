@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "thedeep:block/understone_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "thedeep:block/understone_pillar"
+    },
+    "axis=z": {
+      "model": "thedeep:block/understone_pillar_horizontal",
+      "x": 90
     }
   }
 }

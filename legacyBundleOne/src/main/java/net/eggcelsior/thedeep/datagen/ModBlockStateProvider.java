@@ -3,6 +3,7 @@ package net.eggcelsior.thedeep.datagen;
 import net.eggcelsior.thedeep.TheDeepMod;
 import net.eggcelsior.thedeep.block.ModBlocks;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
@@ -24,7 +25,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.COBBLED_DEPTHSTONE);
 
         blockWithItem(ModBlocks.UNDERSTONE);
-        blockWithItem(ModBlocks.UNDERSTONE_PILLAR);
+        //blockWithItem(ModBlocks.UNDERSTONE_PILLAR);
         blockWithItem(ModBlocks.COBBLED_UNDERSTONE);
         blockWithItem(ModBlocks.FITTED_UNDERSTONE_BRICKS);
         blockWithItem(ModBlocks.UNDERSTONE_TILES);
@@ -64,6 +65,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockItem(ModBlocks.UNDERSTONE_TILE_STAIRS);
         blockItem(ModBlocks.UNDERSTONE_TILE_SLAB);
+        blockItem(ModBlocks.UNDERSTONE_PILLAR);
+
+        axisBlock((RotatedPillarBlock) ModBlocks.UNDERSTONE_PILLAR.get(), blockTexture(ModBlocks.UNDERSTONE_PILLAR.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/understone_pillar_top"));
     }
 
     private void blockItem(RegistryObject<Block> blockRegistryObject, String appendix) {

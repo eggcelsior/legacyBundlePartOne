@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-30T01:14:50.3508127	Block States: thedeep
+// 1.20.1	2024-07-30T15:11:58.6919108	Block States: thedeep
 0c2f1790d08fab3fb1e4129983a9c3f8cd220721 assets/thedeep/blockstates/chiseled_depthstone.json
 d81b0a867a0878d509e529a0d267d247d2b42568 assets/thedeep/blockstates/chiseled_ultramarine.json
 0921ef81f127d6480bbdc2ae07910b9dd6c59435 assets/thedeep/blockstates/chiseled_understone_1.json
@@ -24,7 +24,7 @@ e62ec0e48dfc173ec0a7e1e6bf249195e0400923 assets/thedeep/blockstates/polished_dep
 adf77c122d9ecc6e1819081342b646183f729f36 assets/thedeep/blockstates/ultramarine_block.json
 b66978da0a9096687cfec1b8e6d777c75a3a80af assets/thedeep/blockstates/ultramarine_grate.json
 dd64079e577a1732e98719c1178c576b552cc149 assets/thedeep/blockstates/understone.json
-0602a7a444dd9b1aee989d7407d2dbd1f5256afa assets/thedeep/blockstates/understone_pillar.json
+3c4eed27ed5e65b1a32773a4534529f7222e65c0 assets/thedeep/blockstates/understone_pillar.json
 0c9cb810c0c8b8d6d957828e5c3472962802130d assets/thedeep/blockstates/understone_tiles.json
 acd4080c0e644360afb2251345b75cd27bd6df6f assets/thedeep/blockstates/understone_tile_slab.json
 a4ac3b2d1b73af1bdedf4b35f9a8246114a79a5e assets/thedeep/blockstates/understone_tile_stairs.json
@@ -63,7 +63,8 @@ d8b63b47eb61e52cf56bc6c0f27686ccce2ab437 assets/thedeep/models/block/polished_de
 d28413fead93d4db7b930e3a0aaea800c4906005 assets/thedeep/models/block/ultramarine_block.json
 61e07cca0702cb7775216779e16147c9cdb7bac4 assets/thedeep/models/block/ultramarine_grate.json
 6724867698dca64d185fac8e7447fc017aa0691e assets/thedeep/models/block/understone.json
-9cdf9a854ca1a86435dade229deeef7d32c47b9b assets/thedeep/models/block/understone_pillar.json
+534873b3ed6bb6642a1b40b825980294820c73c2 assets/thedeep/models/block/understone_pillar.json
+4f584f8cac9cb13efecfc003a10c1f71232b6fd1 assets/thedeep/models/block/understone_pillar_horizontal.json
 3754902ccc001313b7228cb42de02501b3f8443d assets/thedeep/models/block/understone_tiles.json
 51703751c8b149b8c8f6bfe4a4db66f81d39865e assets/thedeep/models/block/understone_tile_slab.json
 8f797f7fbaf24533a36536a06b1fbd8cb490b1eb assets/thedeep/models/block/understone_tile_slab_top.json
