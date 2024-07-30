@@ -38,6 +38,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.POLISHED_DEPTHSTONE_SLAB.get()));
         this.add(ModBlocks.DEPTHSTONE_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.DEPTHSTONE_BRICK_SLAB.get()));
+        this.add(ModBlocks.UNDERSTONE_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.UNDERSTONE_TILE_SLAB.get()));
     }
 
     @Override

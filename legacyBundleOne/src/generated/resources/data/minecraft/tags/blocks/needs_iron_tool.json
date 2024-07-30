@@ -12,6 +12,7 @@
     "thedeep:depthstone_brick_slab",
     "thedeep:understone",
     "thedeep:understone_pillar",
-    "thedeep:understone_tile_stairs"
+    "thedeep:understone_tile_stairs",
+    "thedeep:understone_tile_slab"
   ]
 }

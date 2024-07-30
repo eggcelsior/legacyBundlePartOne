@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-29T22:59:37.8210322	Block States: thedeep
+// 1.20.1	2024-07-29T23:21:06.8622312	Block States: thedeep
 0c2f1790d08fab3fb1e4129983a9c3f8cd220721 assets/thedeep/blockstates/chiseled_depthstone.json
 23bb7152b48df5e95132f2bc3220802552d23450 assets/thedeep/blockstates/cobbled_understone.json
 a0c8564546d0df7e347648bf153dc1bcdd736a12 assets/thedeep/blockstates/depthstone.json
@@ -14,6 +14,7 @@ e62ec0e48dfc173ec0a7e1e6bf249195e0400923 assets/thedeep/blockstates/polished_dep
 dd64079e577a1732e98719c1178c576b552cc149 assets/thedeep/blockstates/understone.json
 0602a7a444dd9b1aee989d7407d2dbd1f5256afa assets/thedeep/blockstates/understone_pillar.json
 0c9cb810c0c8b8d6d957828e5c3472962802130d assets/thedeep/blockstates/understone_tiles.json
+acd4080c0e644360afb2251345b75cd27bd6df6f assets/thedeep/blockstates/understone_tile_slab.json
 a4ac3b2d1b73af1bdedf4b35f9a8246114a79a5e assets/thedeep/blockstates/understone_tile_stairs.json
 907fe84a87de2ae80e9e4676879d17d2cc818b04 assets/thedeep/blockstates/weathered_understone_bricks.json
 415a44b43818455292bd3bc82dc40da678dcb43b assets/thedeep/models/block/chiseled_depthstone.json
@@ -40,6 +41,8 @@ d8b63b47eb61e52cf56bc6c0f27686ccce2ab437 assets/thedeep/models/block/polished_de
 6724867698dca64d185fac8e7447fc017aa0691e assets/thedeep/models/block/understone.json
 9cdf9a854ca1a86435dade229deeef7d32c47b9b assets/thedeep/models/block/understone_pillar.json
 3754902ccc001313b7228cb42de02501b3f8443d assets/thedeep/models/block/understone_tiles.json
+51703751c8b149b8c8f6bfe4a4db66f81d39865e assets/thedeep/models/block/understone_tile_slab.json
+8f797f7fbaf24533a36536a06b1fbd8cb490b1eb assets/thedeep/models/block/understone_tile_slab_top.json
 f8a80b4832c04dfbe8a21fe45ac13e83c041a04c assets/thedeep/models/block/understone_tile_stairs.json
 ebf5b5c413f18d979fffab7b119b168c52fa3602 assets/thedeep/models/block/understone_tile_stairs_inner.json
 f420f920ed4339cedf9c0f4e3944d1b823644875 assets/thedeep/models/block/understone_tile_stairs_outer.json
@@ -59,5 +62,6 @@ b2b41678e79795d1135025d264ba6f5f1c3caa2e assets/thedeep/models/item/polished_dep
 0e4d295f2f40e2e961c84df20882575bb1ae2eba assets/thedeep/models/item/understone.json
 fddd1212cd6fccc8f522c83c86cc6b04810b4243 assets/thedeep/models/item/understone_pillar.json
 130336482e3aedc6e24b6ca0b99afd513281761a assets/thedeep/models/item/understone_tiles.json
+14d7878d36de62fce180f15c84a7373740fd6fb5 assets/thedeep/models/item/understone_tile_slab.json
 c7b29ef8a3f443f43a8414905b1118d3b96da57c assets/thedeep/models/item/understone_tile_stairs.json
 1daaac37635f1a971efea500ea75c9de8d20c2fd assets/thedeep/models/item/weathered_understone_bricks.json

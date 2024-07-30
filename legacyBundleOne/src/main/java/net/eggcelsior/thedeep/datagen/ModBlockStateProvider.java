@@ -38,6 +38,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(((SlabBlock) ModBlocks.DEPTHSTONE_SLAB.get()), blockTexture(ModBlocks.DEPTHSTONE.get()), blockTexture(ModBlocks.DEPTHSTONE.get()));
         slabBlock(((SlabBlock) ModBlocks.POLISHED_DEPTHSTONE_SLAB.get()), blockTexture(ModBlocks.POLISHED_DEPTHSTONE.get()), blockTexture(ModBlocks.POLISHED_DEPTHSTONE.get()));
         slabBlock(((SlabBlock) ModBlocks.DEPTHSTONE_BRICK_SLAB.get()), blockTexture(ModBlocks.DEPTHSTONE_BRICKS.get()), blockTexture(ModBlocks.DEPTHSTONE_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.UNDERSTONE_TILE_SLAB.get()), blockTexture(ModBlocks.UNDERSTONE_TILES.get()), blockTexture(ModBlocks.UNDERSTONE_TILES.get()));
 
         blockItem(ModBlocks.DEPTHSTONE_STAIRS);
         blockItem(ModBlocks.POLISHED_DEPTHSTONE_STAIRS);
@@ -47,6 +48,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.POLISHED_DEPTHSTONE_SLAB);
         blockItem(ModBlocks.DEPTHSTONE_BRICK_SLAB);
         blockItem(ModBlocks.UNDERSTONE_TILE_STAIRS);
+        blockItem(ModBlocks.UNDERSTONE_TILE_SLAB);
     }
 
     private void blockItem(RegistryObject<Block> blockRegistryObject, String appendix) {

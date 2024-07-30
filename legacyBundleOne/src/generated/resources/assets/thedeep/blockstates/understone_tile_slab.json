@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thedeep:block/understone_tile_slab"
+    },
+    "type=double": {
+      "model": "thedeep:block/understone_tiles"
+    },
+    "type=top": {
+      "model": "thedeep:block/understone_tile_slab_top"
+    }
+  }
+}
