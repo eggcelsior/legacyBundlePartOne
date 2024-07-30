@@ -37,6 +37,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.FITTED_UNDERSTONE_BRICKS.get());
                         output.accept(ModBlocks.UNDERSTONE_TILES.get());
                         output.accept(ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get());
+                        output.accept(ModBlocks.UNDERSTONE_TILE_STAIRS.get());
                     }).build());
 
 
