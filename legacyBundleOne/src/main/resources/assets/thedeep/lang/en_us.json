@@ -35,5 +35,14 @@
   "block.thedeep.chiseled_understone_5": "Chiseled Understone",
   "block.thedeep.chiseled_understone_6": "Chiseled Understone",
   "block.thedeep.chiseled_understone_7": "Chiseled Understone",
-  "block.thedeep.ultramarine_lantern": "Ultramarine Lamp"
+  "block.thedeep.ultramarine_lantern": "Ultramarine Lamp",
+
+  "block.thedeep.elderkelp_stem": "Elderkelp Stem",
+  "block.thedeep.carved_elderkelp": "Carved Elderkelp",
+  "block.thedeep.elderkelp_planks": "Elderkelp Planks",
+  "block.thedeep.weathered_elderkelp_planks": "Weathered Elderkelp Planks",
+  "block.thedeep.elderkelp_plank_stairs": "Elderkelp Plank Stairs",
+  "block.thedeep.elderkelp_plank_slabs": "Elderkelp Plank Slabs",
+  "block.thedeep.weathered_elderkelp_plank_stairs": "Weathered Elderkelp Plank Stairs",
+  "block.thedeep.weathered_elderkelp_plank_slabs": "Weathered Elderkelp Plank Slabs"
 }

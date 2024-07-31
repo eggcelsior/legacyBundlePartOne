@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "thedeep:block/carved_elderkelp_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "thedeep:block/carved_elderkelp"
+    },
+    "axis=z": {
+      "model": "thedeep:block/carved_elderkelp_horizontal",
+      "x": 90
+    }
+  }
+}

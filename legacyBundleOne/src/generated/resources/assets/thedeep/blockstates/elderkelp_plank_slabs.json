@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thedeep:block/elderkelp_plank_slabs"
+    },
+    "type=double": {
+      "model": "thedeep:block/elderkelp_planks"
+    },
+    "type=top": {
+      "model": "thedeep:block/elderkelp_plank_slabs_top"
+    }
+  }
+}

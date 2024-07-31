@@ -54,6 +54,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ULTRAMARINE_BLOCK.get());
                         output.accept(ModBlocks.ULTRAMARINE_GRATE.get());
                         output.accept(ModBlocks.ULTRAMARINE_LAMP.get());
+
+                        output.accept(ModBlocks.ELDERKELP_STEM.get());
+                        output.accept(ModBlocks.CARVED_ELDERKELP.get());
+                        output.accept(ModBlocks.ELDERKELP_PLANKS.get());
+                        output.accept(ModBlocks.ELDERKELP_PLANK_STAIRS.get());
+                        output.accept(ModBlocks.ELDERKELP_PLANK_SLABS.get());
+                        output.accept(ModBlocks.WEATHERED_ELDERKELP_PLANKS.get());
+                        output.accept(ModBlocks.WEATHERED_ELDERKELP_PLANK_STAIRS.get());
+                        output.accept(ModBlocks.WEATHERED_ELDERKELP_PLANK_SLABS.get());
                     }).build());
 
 

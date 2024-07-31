@@ -104,7 +104,29 @@ public class ModBlocks{
     public static final RegistryObject<Block> CHISELED_UNDERSTONE_7 = registerBlock("chiseled_understone_7",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
     //done for now lmao
+    public static final RegistryObject<Block> ELDERKELP_STEM = registerBlock("elderkelp_stem",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
 
+    public static final RegistryObject<Block> CARVED_ELDERKELP = registerBlock("carved_elderkelp",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
+
+    public static final RegistryObject<Block> ELDERKELP_PLANKS = registerBlock("elderkelp_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
+
+    public static final RegistryObject<Block> WEATHERED_ELDERKELP_PLANKS = registerBlock("weathered_elderkelp_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
+
+    public static final RegistryObject<Block> ELDERKELP_PLANK_STAIRS = registerBlock("elderkelp_plank_stairs",
+            () -> new StairBlock(() -> ModBlocks.ELDERKELP_PLANKS.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
+
+    public static final RegistryObject<Block> ELDERKELP_PLANK_SLABS = registerBlock("elderkelp_plank_slabs",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
+
+    public static final RegistryObject<Block> WEATHERED_ELDERKELP_PLANK_STAIRS = registerBlock("weathered_elderkelp_plank_stairs",
+            () -> new StairBlock(() -> ModBlocks.ELDERKELP_PLANKS.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
+
+    public static final RegistryObject<Block> WEATHERED_ELDERKELP_PLANK_SLABS = registerBlock("weathered_elderkelp_plank_slabs",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

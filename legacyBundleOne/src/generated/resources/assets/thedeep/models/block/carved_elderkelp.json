@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "thedeep:block/carved_elderkelp_top",
+    "side": "thedeep:block/carved_elderkelp"
+  }
+}
