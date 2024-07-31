@@ -46,7 +46,7 @@ public class ModBlocks{
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
     public static final RegistryObject<Block> COBBLED_DEPTHSTONE = registerBlock("cobbled_depthstone",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE)));
 
     public static final RegistryObject<Block> DEPTHSTONE_BRICK_SLAB = registerBlock("depthstone_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
@@ -55,7 +55,7 @@ public class ModBlocks{
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
     public static final RegistryObject<Block> UNDERSTONE_PILLAR = registerBlock("understone_pillar",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BASALT)));
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
     public static final RegistryObject<Block> COBBLED_UNDERSTONE = registerBlock("cobbled_understone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
@@ -83,9 +83,10 @@ public class ModBlocks{
 
     public static final RegistryObject<Block> ULTRAMARINE_BLOCK = registerBlock("ultramarine_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-
     public static final RegistryObject<Block> ULTRAMARINE_GRATE = registerBlock("ultramarine_grate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+    public static final RegistryObject<Block> ULTRAMARINE_LAMP = registerBlock("ultramarine_lantern",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).requiresCorrectToolForDrops().strength(7)));
 
     //prepare for seven different chiseled understone variants dear god
     public static final RegistryObject<Block> CHISELED_UNDERSTONE_1 = registerBlock("chiseled_understone_1",
@@ -103,6 +104,7 @@ public class ModBlocks{
     public static final RegistryObject<Block> CHISELED_UNDERSTONE_7 = registerBlock("chiseled_understone_7",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
     //done for now lmao
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

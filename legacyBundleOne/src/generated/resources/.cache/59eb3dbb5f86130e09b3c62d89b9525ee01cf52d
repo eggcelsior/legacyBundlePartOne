@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-30T01:18:20.4428104	Loot Tables
+// 1.20.1	2024-07-30T18:38:26.9221519	Loot Tables
 b7ff05e3186b35ebd473dfb5aa9f930de397c690 data/thedeep/loot_tables/blocks/chiseled_depthstone.json
 d0258b84a5e0c6c8ad993f67d9c83ed78be43f82 data/thedeep/loot_tables/blocks/chiseled_ultramarine.json
 5f2bbb3f6b58e625d5e6b998d34cb5246c227306 data/thedeep/loot_tables/blocks/chiseled_understone_1.json
@@ -23,6 +23,7 @@ abe5b306c6daad6b213ed59959578d3fa7983843 data/thedeep/loot_tables/blocks/fitted_
 3c79040221b5055d99b192376faf264f75d11879 data/thedeep/loot_tables/blocks/polished_depthstone_stairs.json
 0d970f7c5a4a26e1b40c3fab4250e6770f97b6f0 data/thedeep/loot_tables/blocks/ultramarine_block.json
 742df1fdb1fe7270946ff64acfc7b96664aad41e data/thedeep/loot_tables/blocks/ultramarine_grate.json
+f2df77cc572b7df7dc0221faa45c421fa00a41e3 data/thedeep/loot_tables/blocks/ultramarine_lantern.json
 082fcf16263ae340d8197135e292a2225793ca78 data/thedeep/loot_tables/blocks/understone.json
 915913c78af6ee1e0f34fce144df59a0751141f1 data/thedeep/loot_tables/blocks/understone_pillar.json
 d633fef3b1339c8058bd1e24df54e15055ea9136 data/thedeep/loot_tables/blocks/understone_tiles.json

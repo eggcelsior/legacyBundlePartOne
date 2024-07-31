@@ -45,6 +45,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.CHISELED_UNDERSTONE_5.get());
         this.dropSelf(ModBlocks.CHISELED_UNDERSTONE_6.get());
         this.dropSelf(ModBlocks.CHISELED_UNDERSTONE_7.get());
+        this.dropSelf(ModBlocks.ULTRAMARINE_LAMP.get());
 
         this.add(ModBlocks.DEPTHSTONE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.DEPTHSTONE_SLAB.get()));

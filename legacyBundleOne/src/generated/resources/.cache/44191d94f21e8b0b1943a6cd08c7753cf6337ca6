@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-30T15:11:58.6919108	Block States: thedeep
+// 1.20.1	2024-07-30T18:38:26.923152	Block States: thedeep
 0c2f1790d08fab3fb1e4129983a9c3f8cd220721 assets/thedeep/blockstates/chiseled_depthstone.json
 d81b0a867a0878d509e529a0d267d247d2b42568 assets/thedeep/blockstates/chiseled_ultramarine.json
 0921ef81f127d6480bbdc2ae07910b9dd6c59435 assets/thedeep/blockstates/chiseled_understone_1.json
@@ -23,6 +23,7 @@ e53d49af22711b4134279d972620b9d68da7480f assets/thedeep/blockstates/fitted_under
 e62ec0e48dfc173ec0a7e1e6bf249195e0400923 assets/thedeep/blockstates/polished_depthstone_stairs.json
 adf77c122d9ecc6e1819081342b646183f729f36 assets/thedeep/blockstates/ultramarine_block.json
 b66978da0a9096687cfec1b8e6d777c75a3a80af assets/thedeep/blockstates/ultramarine_grate.json
+0a20f75dc6ea22d8f5be2c39027888e198e3c463 assets/thedeep/blockstates/ultramarine_lantern.json
 dd64079e577a1732e98719c1178c576b552cc149 assets/thedeep/blockstates/understone.json
 3c4eed27ed5e65b1a32773a4534529f7222e65c0 assets/thedeep/blockstates/understone_pillar.json
 0c9cb810c0c8b8d6d957828e5c3472962802130d assets/thedeep/blockstates/understone_tiles.json
@@ -62,6 +63,7 @@ d8b63b47eb61e52cf56bc6c0f27686ccce2ab437 assets/thedeep/models/block/polished_de
 09750b310d5b49a743dfe4e9d3e6fab6ae9d5424 assets/thedeep/models/block/polished_depthstone_stairs_outer.json
 d28413fead93d4db7b930e3a0aaea800c4906005 assets/thedeep/models/block/ultramarine_block.json
 61e07cca0702cb7775216779e16147c9cdb7bac4 assets/thedeep/models/block/ultramarine_grate.json
+ca99da465c8f9d366ee03038007da16837d7d7d3 assets/thedeep/models/block/ultramarine_lantern.json
 6724867698dca64d185fac8e7447fc017aa0691e assets/thedeep/models/block/understone.json
 534873b3ed6bb6642a1b40b825980294820c73c2 assets/thedeep/models/block/understone_pillar.json
 4f584f8cac9cb13efecfc003a10c1f71232b6fd1 assets/thedeep/models/block/understone_pillar_horizontal.json
@@ -96,6 +98,7 @@ b2b41678e79795d1135025d264ba6f5f1c3caa2e assets/thedeep/models/item/polished_dep
 4dbe4beb8f06005f39b25be4bf74c7592b268f17 assets/thedeep/models/item/polished_depthstone_stairs.json
 49dc859d0250bccdfb50a5fcb0f33421ae4e6264 assets/thedeep/models/item/ultramarine_block.json
 df60355214c4b2a355530b8b15c9c4e31919c1a6 assets/thedeep/models/item/ultramarine_grate.json
+46fe85874416ea9a5c3481446bc0933ab2a91533 assets/thedeep/models/item/ultramarine_lantern.json
 0e4d295f2f40e2e961c84df20882575bb1ae2eba assets/thedeep/models/item/understone.json
 fddd1212cd6fccc8f522c83c86cc6b04810b4243 assets/thedeep/models/item/understone_pillar.json
 130336482e3aedc6e24b6ca0b99afd513281761a assets/thedeep/models/item/understone_tiles.json

@@ -5,11 +5,8 @@ import net.eggcelsior.thedeep.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.world.level.block.Block;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.fml.common.Mod;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -52,7 +49,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.CHISELED_UNDERSTONE_4.get(),
                         ModBlocks.CHISELED_UNDERSTONE_5.get(),
                         ModBlocks.CHISELED_UNDERSTONE_6.get(),
-                        ModBlocks.CHISELED_UNDERSTONE_7.get());
+                        ModBlocks.CHISELED_UNDERSTONE_7.get(),
+                        ModBlocks.ULTRAMARINE_LAMP.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.DEPTHSTONE.get(),
@@ -80,7 +78,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.CHISELED_UNDERSTONE_4.get(),
                         ModBlocks.CHISELED_UNDERSTONE_5.get(),
                         ModBlocks.CHISELED_UNDERSTONE_6.get(),
-                        ModBlocks.CHISELED_UNDERSTONE_7.get());
+                        ModBlocks.CHISELED_UNDERSTONE_7.get(),
+                        ModBlocks.ULTRAMARINE_LAMP.get());
         /*this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
                 .add(ModBlocks.ALEXANDRITE_ORE.get()).addTag(Tags.Blocks.ORES);
 

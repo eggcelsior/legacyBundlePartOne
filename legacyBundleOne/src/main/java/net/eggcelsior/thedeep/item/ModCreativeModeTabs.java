@@ -53,6 +53,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.CHISELED_ULTRAMARINE.get());
                         output.accept(ModBlocks.ULTRAMARINE_BLOCK.get());
                         output.accept(ModBlocks.ULTRAMARINE_GRATE.get());
+                        output.accept(ModBlocks.ULTRAMARINE_LAMP.get());
                     }).build());
 
 

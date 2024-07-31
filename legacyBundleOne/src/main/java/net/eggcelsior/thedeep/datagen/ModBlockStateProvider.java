@@ -43,6 +43,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.CHISELED_ULTRAMARINE);
         blockWithItem(ModBlocks.ULTRAMARINE_BLOCK);
         blockWithItem(ModBlocks.ULTRAMARINE_GRATE);
+        blockWithItem(ModBlocks.ULTRAMARINE_LAMP);
 
         stairsBlock((StairBlock) ModBlocks.UNDERSTONE_TILE_STAIRS.get(), blockTexture(ModBlocks.UNDERSTONE_TILES.get()));
 
