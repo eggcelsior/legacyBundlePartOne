@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "thedeep:understone"
+  },
+  "result": "thedeep:understone_tiles"
+}

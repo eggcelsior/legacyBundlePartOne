@@ -1,9 +1,11 @@
 package net.eggcelsior.thedeep.datagen;
 
 import net.eggcelsior.thedeep.TheDeepMod;
+import net.eggcelsior.thedeep.block.ModBlocks;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -21,7 +23,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
+        stonecutterResultFromBase(pWriter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.UNDERSTONE_TILE_SLAB.get(), ModBlocks.UNDERSTONE.get(), 2);
+        stonecutterResultFromBase(pWriter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.UNDERSTONE_TILE_STAIRS.get(), ModBlocks.UNDERSTONE.get(), 6);
+        stonecutterResultFromBase(pWriter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.UNDERSTONE_TILE_SLAB.get(), ModBlocks.UNDERSTONE_TILES.get(), 2);
+        stonecutterResultFromBase(pWriter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.UNDERSTONE_TILE_STAIRS.get(), ModBlocks.UNDERSTONE_TILES.get(), 6);
+        stonecutterResultFromBase(pWriter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.UNDERSTONE_TILES.get(), ModBlocks.UNDERSTONE.get(), 1);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ELDERKELP_PLANKS.get(), 4).requires(ModBlocks.ELDERKELP_STEM.get())
+                .unlockedBy("has_elderkelp_stem", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModBlocks.ELDERKELP_STEM.get()).build()))
+                .save(pWriter);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

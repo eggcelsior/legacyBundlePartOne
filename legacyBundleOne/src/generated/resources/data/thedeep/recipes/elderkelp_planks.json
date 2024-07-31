@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "thedeep:elderkelp_stem"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "thedeep:elderkelp_planks"
+  }
+}
