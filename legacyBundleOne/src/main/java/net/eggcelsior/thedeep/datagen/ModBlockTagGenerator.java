@@ -70,7 +70,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.ELDERKELP_PLANK_STAIRS.get(),
                         ModBlocks.ELDERKELP_PLANK_SLAB.get(),
                         ModBlocks.WEATHERED_ELDERKELP_PLANK_STAIRS.get(),
-                        ModBlocks.WEATHERED_ELDERKELP_PLANK_SLAB.get());
+                        ModBlocks.WEATHERED_ELDERKELP_PLANK_SLAB.get(),
+                        ModBlocks.ELDERKELP_DOOR.get(),
+                        ModBlocks.ELDERKELP_TRAPDOOR.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.DEPTHSTONE.get(),
@@ -117,7 +119,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.WEATHERED_UNDERSTONE_BRICK_SLAB.get(),
                         ModBlocks.WEATHERED_UNDERSTONE_BRICK_STAIRS.get(),
                         ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB.get(),
-                        ModBlocks.CLEAN_UNDERSTONE_BRICK_STAIRS.get());
+                        ModBlocks.CLEAN_UNDERSTONE_BRICK_STAIRS.get(),
+                        ModBlocks.ELDERKELP_DOOR.get(),
+                        ModBlocks.ELDERKELP_TRAPDOOR.get());
         /*this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
                 .add(ModBlocks.ALEXANDRITE_ORE.get()).addTag(Tags.Blocks.ORES);
 

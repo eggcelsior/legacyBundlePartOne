@@ -7,6 +7,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -127,6 +128,12 @@ public class ModBlocks{
 
     public static final RegistryObject<Block> WEATHERED_ELDERKELP_PLANK_SLAB = registerBlock("weathered_elderkelp_plank_slabs",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
+
+    public static final RegistryObject<Block> ELDERKELP_DOOR = registerBlock("elderkelp_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.MELON), BlockSetType.WARPED));
+
+    public static final RegistryObject<Block> ELDERKELP_TRAPDOOR = registerBlock("elderkelp_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MELON), BlockSetType.WARPED));
 
     //time for all the understone slab/stairs
     public static final RegistryObject<Block> UNDERSTONE_SLAB = registerBlock("understone_slab",

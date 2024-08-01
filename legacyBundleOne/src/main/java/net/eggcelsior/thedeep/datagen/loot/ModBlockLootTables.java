@@ -59,6 +59,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WEATHERED_ELDERKELP_PLANKS.get());
         this.dropSelf(ModBlocks.ELDERKELP_PLANK_STAIRS.get());
         this.dropSelf(ModBlocks.WEATHERED_ELDERKELP_PLANK_STAIRS.get());
+        this.dropSelf(ModBlocks.ELDERKELP_TRAPDOOR.get());
+
+        this.add(ModBlocks.ELDERKELP_DOOR.get(),
+                block -> createDoorTable(ModBlocks.ELDERKELP_DOOR.get()));
 
         this.add(ModBlocks.ELDERKELP_PLANK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.ELDERKELP_PLANK_SLAB.get()));

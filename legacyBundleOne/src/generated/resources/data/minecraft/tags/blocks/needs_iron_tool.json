@@ -44,6 +44,8 @@
     "thedeep:weathered_understone_brick_slab",
     "thedeep:weathered_understone_brick_stairs",
     "thedeep:clean_understone_brick_slab",
-    "thedeep:clean_understone_brick_stairs"
+    "thedeep:clean_understone_brick_stairs",
+    "thedeep:elderkelp_door",
+    "thedeep:elderkelp_trapdoor"
   ]
 }
