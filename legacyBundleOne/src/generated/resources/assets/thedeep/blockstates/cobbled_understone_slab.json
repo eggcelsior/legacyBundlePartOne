@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thedeep:block/cobbled_understone_slab"
+    },
+    "type=double": {
+      "model": "thedeep:block/cobbled_understone"
+    },
+    "type=top": {
+      "model": "thedeep:block/cobbled_understone_slab_top"
+    }
+  }
+}

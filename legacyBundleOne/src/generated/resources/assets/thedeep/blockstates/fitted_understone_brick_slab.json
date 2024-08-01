@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thedeep:block/fitted_understone_brick_slab"
+    },
+    "type=double": {
+      "model": "thedeep:block/fitted_understone_bricks"
+    },
+    "type=top": {
+      "model": "thedeep:block/fitted_understone_brick_slab_top"
+    }
+  }
+}

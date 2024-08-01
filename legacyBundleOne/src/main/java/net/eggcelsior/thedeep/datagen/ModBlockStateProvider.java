@@ -8,6 +8,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -62,12 +63,27 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.CARVED_ELDERKELP);
         blockWithItem(ModBlocks.ELDERKELP_PLANKS);
         blockWithItem(ModBlocks.WEATHERED_ELDERKELP_PLANKS);
-        blockItem(ModBlocks.ELDERKELP_PLANK_SLABS);
+        blockItem(ModBlocks.ELDERKELP_PLANK_SLAB);
         blockItem(ModBlocks.ELDERKELP_PLANK_STAIRS);
-        blockItem(ModBlocks.WEATHERED_ELDERKELP_PLANK_SLABS);
+        blockItem(ModBlocks.WEATHERED_ELDERKELP_PLANK_SLAB);
         blockItem(ModBlocks.WEATHERED_ELDERKELP_PLANK_STAIRS);
+        blockItem(ModBlocks.UNDERSTONE_SLAB);
+        blockItem(ModBlocks.UNDERSTONE_STAIRS);
+        blockItem(ModBlocks.COBBLED_UNDERSTONE_SLAB);
+        blockItem(ModBlocks.COBBLED_UNDERSTONE_STAIRS);
+        blockItem(ModBlocks.FITTED_UNDERSTONE_BRICK_SLAB);
+        blockItem(ModBlocks.FITTED_UNDERSTONE_BRICK_STAIRS);
+        blockItem(ModBlocks.WEATHERED_UNDERSTONE_BRICK_SLAB);
+        blockItem(ModBlocks.WEATHERED_UNDERSTONE_BRICK_STAIRS);
+        blockItem(ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB);
+        blockItem(ModBlocks.CLEAN_UNDERSTONE_BRICK_STAIRS);
 
         stairsBlock((StairBlock) ModBlocks.UNDERSTONE_TILE_STAIRS.get(), blockTexture(ModBlocks.UNDERSTONE_TILES.get()));
+        stairsBlock((StairBlock) ModBlocks.UNDERSTONE_STAIRS.get(), blockTexture(ModBlocks.UNDERSTONE.get()));
+        stairsBlock((StairBlock) ModBlocks.COBBLED_UNDERSTONE_STAIRS.get(), blockTexture(ModBlocks.COBBLED_UNDERSTONE.get()));
+        stairsBlock((StairBlock) ModBlocks.FITTED_UNDERSTONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.FITTED_UNDERSTONE_BRICKS.get()));
+        stairsBlock((StairBlock) ModBlocks.WEATHERED_UNDERSTONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get()));
+        stairsBlock((StairBlock) ModBlocks.CLEAN_UNDERSTONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.CLEAN_UNDERSTONE_BRICKS.get()));
 
         stairsBlock((StairBlock) ModBlocks.DEPTHSTONE_STAIRS.get(), blockTexture(ModBlocks.DEPTHSTONE.get()));
         stairsBlock((StairBlock) ModBlocks.POLISHED_DEPTHSTONE_STAIRS.get(), blockTexture(ModBlocks.POLISHED_DEPTHSTONE.get()));
@@ -79,9 +95,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(((SlabBlock) ModBlocks.POLISHED_DEPTHSTONE_SLAB.get()), blockTexture(ModBlocks.POLISHED_DEPTHSTONE.get()), blockTexture(ModBlocks.POLISHED_DEPTHSTONE.get()));
         slabBlock(((SlabBlock) ModBlocks.DEPTHSTONE_BRICK_SLAB.get()), blockTexture(ModBlocks.DEPTHSTONE_BRICKS.get()), blockTexture(ModBlocks.DEPTHSTONE_BRICKS.get()));
         slabBlock(((SlabBlock) ModBlocks.UNDERSTONE_TILE_SLAB.get()), blockTexture(ModBlocks.UNDERSTONE_TILES.get()), blockTexture(ModBlocks.UNDERSTONE_TILES.get()));
-        slabBlock(((SlabBlock) ModBlocks.ELDERKELP_PLANK_SLABS.get()), blockTexture(ModBlocks.ELDERKELP_PLANKS.get()), blockTexture(ModBlocks.ELDERKELP_PLANKS.get()));
-        slabBlock(((SlabBlock) ModBlocks.WEATHERED_ELDERKELP_PLANK_SLABS.get()), blockTexture(ModBlocks.WEATHERED_ELDERKELP_PLANKS.get()), blockTexture(ModBlocks.WEATHERED_ELDERKELP_PLANKS.get()));
-
+        slabBlock(((SlabBlock) ModBlocks.ELDERKELP_PLANK_SLAB.get()), blockTexture(ModBlocks.ELDERKELP_PLANKS.get()), blockTexture(ModBlocks.ELDERKELP_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.WEATHERED_ELDERKELP_PLANK_SLAB.get()), blockTexture(ModBlocks.WEATHERED_ELDERKELP_PLANKS.get()), blockTexture(ModBlocks.WEATHERED_ELDERKELP_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.UNDERSTONE_SLAB.get()), blockTexture(ModBlocks.UNDERSTONE.get()), blockTexture(ModBlocks.UNDERSTONE.get()));
+        slabBlock(((SlabBlock) ModBlocks.COBBLED_UNDERSTONE_SLAB.get()), blockTexture(ModBlocks.COBBLED_UNDERSTONE.get()), blockTexture(ModBlocks.COBBLED_UNDERSTONE.get()));
+        slabBlock(((SlabBlock) ModBlocks.FITTED_UNDERSTONE_BRICK_SLAB.get()), blockTexture(ModBlocks.FITTED_UNDERSTONE_BRICKS.get()), blockTexture(ModBlocks.FITTED_UNDERSTONE_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.WEATHERED_UNDERSTONE_BRICK_SLAB.get()), blockTexture(ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get()), blockTexture(ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB.get()), blockTexture(ModBlocks.CLEAN_UNDERSTONE_BRICKS.get()), blockTexture(ModBlocks.CLEAN_UNDERSTONE_BRICKS.get()));
 
 
         axisBlock((RotatedPillarBlock) ModBlocks.UNDERSTONE_PILLAR.get(), blockTexture(ModBlocks.UNDERSTONE_PILLAR.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/understone_pillar_top"));

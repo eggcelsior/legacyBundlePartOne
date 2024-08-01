@@ -30,6 +30,16 @@
     "thedeep:chiseled_understone_5",
     "thedeep:chiseled_understone_6",
     "thedeep:chiseled_understone_7",
-    "thedeep:ultramarine_lantern"
+    "thedeep:ultramarine_lantern",
+    "thedeep:understone_slab",
+    "thedeep:understone_stairs",
+    "thedeep:cobbled_understone_slab",
+    "thedeep:cobbled_understone_stairs",
+    "thedeep:fitted_understone_brick_slab",
+    "thedeep:fitted_understone_brick_stairs",
+    "thedeep:weathered_understone_brick_slab",
+    "thedeep:weathered_understone_brick_stairs",
+    "thedeep:clean_understone_brick_slab",
+    "thedeep:clean_understone_brick_stairs"
   ]
 }

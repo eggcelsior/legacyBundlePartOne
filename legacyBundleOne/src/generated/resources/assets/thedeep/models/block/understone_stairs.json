@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "thedeep:block/understone",
+    "side": "thedeep:block/understone",
+    "top": "thedeep:block/understone"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "thedeep:block/fitted_understone_bricks",
+    "side": "thedeep:block/fitted_understone_bricks",
+    "top": "thedeep:block/fitted_understone_bricks"
+  }
+}

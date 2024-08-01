@@ -34,6 +34,16 @@
     "thedeep:elderkelp_plank_stairs",
     "thedeep:elderkelp_plank_slabs",
     "thedeep:weathered_elderkelp_plank_stairs",
-    "thedeep:weathered_elderkelp_plank_slabs"
+    "thedeep:weathered_elderkelp_plank_slabs",
+    "thedeep:understone_slab",
+    "thedeep:understone_stairs",
+    "thedeep:cobbled_understone_slab",
+    "thedeep:cobbled_understone_stairs",
+    "thedeep:fitted_understone_brick_slab",
+    "thedeep:fitted_understone_brick_stairs",
+    "thedeep:weathered_understone_brick_slab",
+    "thedeep:weathered_understone_brick_stairs",
+    "thedeep:clean_understone_brick_slab",
+    "thedeep:clean_understone_brick_stairs"
   ]
 }

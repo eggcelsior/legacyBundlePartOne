@@ -26,7 +26,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.POLISHED_DEPTHSTONE_STAIRS.get());
         this.dropSelf(ModBlocks.COBBLED_DEPTHSTONE.get());
 
-        this.dropSelf(ModBlocks.UNDERSTONE.get());
+        this.dropOther(ModBlocks.UNDERSTONE.get(), ModBlocks.COBBLED_UNDERSTONE.get());
         this.dropSelf(ModBlocks.UNDERSTONE_PILLAR.get());
         this.dropSelf(ModBlocks.COBBLED_UNDERSTONE.get());
         this.dropSelf(ModBlocks.FITTED_UNDERSTONE_BRICKS.get());
@@ -34,6 +34,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.UNDERSTONE_TILE_STAIRS.get());
         this.dropSelf(ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get());
         this.dropSelf(ModBlocks.CLEAN_UNDERSTONE_BRICKS.get());
+        this.dropSelf(ModBlocks.UNDERSTONE_STAIRS.get());
+        this.dropSelf(ModBlocks.COBBLED_UNDERSTONE_STAIRS.get());
+        this.dropSelf(ModBlocks.FITTED_UNDERSTONE_BRICK_STAIRS.get());
+        this.dropSelf(ModBlocks.WEATHERED_UNDERSTONE_BRICK_STAIRS.get());
+        this.dropSelf(ModBlocks.CLEAN_UNDERSTONE_BRICK_STAIRS.get());
 
         this.dropSelf(ModBlocks.CHISELED_ULTRAMARINE.get());
         this.dropSelf(ModBlocks.ULTRAMARINE_BLOCK.get());
@@ -55,10 +60,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ELDERKELP_PLANK_STAIRS.get());
         this.dropSelf(ModBlocks.WEATHERED_ELDERKELP_PLANK_STAIRS.get());
 
-        this.add(ModBlocks.ELDERKELP_PLANK_SLABS.get(),
-                block -> createSlabItemTable(ModBlocks.ELDERKELP_PLANK_SLABS.get()));
-        this.add(ModBlocks.WEATHERED_ELDERKELP_PLANK_SLABS.get(),
-                block -> createSlabItemTable(ModBlocks.WEATHERED_ELDERKELP_PLANK_SLABS.get()));
+        this.add(ModBlocks.ELDERKELP_PLANK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.ELDERKELP_PLANK_SLAB.get()));
+        this.add(ModBlocks.WEATHERED_ELDERKELP_PLANK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.WEATHERED_ELDERKELP_PLANK_SLAB.get()));
 
         this.add(ModBlocks.DEPTHSTONE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.DEPTHSTONE_SLAB.get()));
@@ -68,6 +73,16 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.DEPTHSTONE_BRICK_SLAB.get()));
         this.add(ModBlocks.UNDERSTONE_TILE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.UNDERSTONE_TILE_SLAB.get()));
+        this.add(ModBlocks.UNDERSTONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.UNDERSTONE_SLAB.get()));
+        this.add(ModBlocks.COBBLED_UNDERSTONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.COBBLED_UNDERSTONE_SLAB.get()));
+        this.add(ModBlocks.FITTED_UNDERSTONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.FITTED_UNDERSTONE_BRICK_SLAB.get()));
+        this.add(ModBlocks.WEATHERED_UNDERSTONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.WEATHERED_UNDERSTONE_BRICK_SLAB.get()));
+        this.add(ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB.get()));
     }
 
     @Override

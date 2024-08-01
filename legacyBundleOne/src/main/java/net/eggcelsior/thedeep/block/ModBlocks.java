@@ -119,14 +119,41 @@ public class ModBlocks{
     public static final RegistryObject<Block> ELDERKELP_PLANK_STAIRS = registerBlock("elderkelp_plank_stairs",
             () -> new StairBlock(() -> ModBlocks.ELDERKELP_PLANKS.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
 
-    public static final RegistryObject<Block> ELDERKELP_PLANK_SLABS = registerBlock("elderkelp_plank_slabs",
+    public static final RegistryObject<Block> ELDERKELP_PLANK_SLAB = registerBlock("elderkelp_plank_slabs",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
 
     public static final RegistryObject<Block> WEATHERED_ELDERKELP_PLANK_STAIRS = registerBlock("weathered_elderkelp_plank_stairs",
             () -> new StairBlock(() -> ModBlocks.ELDERKELP_PLANKS.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
 
-    public static final RegistryObject<Block> WEATHERED_ELDERKELP_PLANK_SLABS = registerBlock("weathered_elderkelp_plank_slabs",
+    public static final RegistryObject<Block> WEATHERED_ELDERKELP_PLANK_SLAB = registerBlock("weathered_elderkelp_plank_slabs",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MELON).requiresCorrectToolForDrops().strength(7)));
+
+    //time for all the understone slab/stairs
+    public static final RegistryObject<Block> UNDERSTONE_SLAB = registerBlock("understone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> UNDERSTONE_STAIRS = registerBlock("understone_stairs",
+            () -> new StairBlock(() -> ModBlocks.UNDERSTONE.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> COBBLED_UNDERSTONE_SLAB = registerBlock("cobbled_understone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> COBBLED_UNDERSTONE_STAIRS = registerBlock("cobbled_understone_stairs",
+            () -> new StairBlock(() -> ModBlocks.COBBLED_UNDERSTONE.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> FITTED_UNDERSTONE_BRICK_SLAB = registerBlock("fitted_understone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> FITTED_UNDERSTONE_BRICK_STAIRS = registerBlock("fitted_understone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.FITTED_UNDERSTONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> WEATHERED_UNDERSTONE_BRICK_SLAB = registerBlock("weathered_understone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> WEATHERED_UNDERSTONE_BRICK_STAIRS = registerBlock("weathered_understone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> CLEAN_UNDERSTONE_BRICK_SLAB = registerBlock("clean_understone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> CLEAN_UNDERSTONE_BRICK_STAIRS = registerBlock("clean_understone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.CLEAN_UNDERSTONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
+    //
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

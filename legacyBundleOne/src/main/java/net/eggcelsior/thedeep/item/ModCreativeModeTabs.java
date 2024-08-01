@@ -38,9 +38,19 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.FITTED_UNDERSTONE_BRICKS.get());
                         output.accept(ModBlocks.UNDERSTONE_TILES.get());
                         output.accept(ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get());
+                        output.accept(ModBlocks.CLEAN_UNDERSTONE_BRICKS.get());
                         output.accept(ModBlocks.UNDERSTONE_TILE_STAIRS.get());
                         output.accept(ModBlocks.UNDERSTONE_TILE_SLAB.get());
-                        output.accept(ModBlocks.CLEAN_UNDERSTONE_BRICKS.get());
+                        output.accept(ModBlocks.UNDERSTONE_STAIRS.get());
+                        output.accept(ModBlocks.UNDERSTONE_SLAB.get());
+                        output.accept(ModBlocks.COBBLED_UNDERSTONE_STAIRS.get());
+                        output.accept(ModBlocks.COBBLED_UNDERSTONE_SLAB.get());
+                        output.accept(ModBlocks.FITTED_UNDERSTONE_BRICK_STAIRS.get());
+                        output.accept(ModBlocks.FITTED_UNDERSTONE_BRICK_SLAB.get());
+                        output.accept(ModBlocks.WEATHERED_UNDERSTONE_BRICK_STAIRS.get());
+                        output.accept(ModBlocks.WEATHERED_UNDERSTONE_BRICK_SLAB.get());
+                        output.accept(ModBlocks.CLEAN_UNDERSTONE_BRICK_STAIRS.get());
+                        output.accept(ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB.get());
 
                         output.accept(ModBlocks.CHISELED_UNDERSTONE_1.get());
                         output.accept(ModBlocks.CHISELED_UNDERSTONE_2.get());
@@ -59,10 +69,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.CARVED_ELDERKELP.get());
                         output.accept(ModBlocks.ELDERKELP_PLANKS.get());
                         output.accept(ModBlocks.ELDERKELP_PLANK_STAIRS.get());
-                        output.accept(ModBlocks.ELDERKELP_PLANK_SLABS.get());
+                        output.accept(ModBlocks.ELDERKELP_PLANK_SLAB.get());
                         output.accept(ModBlocks.WEATHERED_ELDERKELP_PLANKS.get());
                         output.accept(ModBlocks.WEATHERED_ELDERKELP_PLANK_STAIRS.get());
-                        output.accept(ModBlocks.WEATHERED_ELDERKELP_PLANK_SLABS.get());
+                        output.accept(ModBlocks.WEATHERED_ELDERKELP_PLANK_SLAB.get());
                     }).build());
 
 
