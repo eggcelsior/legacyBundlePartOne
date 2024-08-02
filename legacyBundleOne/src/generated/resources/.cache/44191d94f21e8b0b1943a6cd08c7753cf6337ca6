@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-31T20:49:48.6551579	Block States: thedeep
+// 1.20.1	2024-08-01T17:15:31.8262604	Block States: thedeep
 b599a7adf2fd7b0263c963ff846d59943fd3b1ec assets/thedeep/blockstates/carved_elderkelp.json
 0c2f1790d08fab3fb1e4129983a9c3f8cd220721 assets/thedeep/blockstates/chiseled_depthstone.json
 d81b0a867a0878d509e529a0d267d247d2b42568 assets/thedeep/blockstates/chiseled_ultramarine.json
@@ -101,9 +101,9 @@ c85151023f713da6a815c10f1564b3b8825c6d02 assets/thedeep/models/block/elderkelp_p
 61ff2767982c25587a22a14f79c8143562187276 assets/thedeep/models/block/elderkelp_plank_stairs_inner.json
 a229c254804402de9e6ca7e97b1bdc3e3247b42c assets/thedeep/models/block/elderkelp_plank_stairs_outer.json
 7256323ee30dd1c4a563445ca4759336c7190c9f assets/thedeep/models/block/elderkelp_stem.json
-4b582cfdd7f65e85d5e632dbe9764b1855b72cfc assets/thedeep/models/block/elderkelp_trapdoor_bottom.json
-9ff6f9b881d59cd7791fd0e0cb3197a7db4b909f assets/thedeep/models/block/elderkelp_trapdoor_open.json
-5cb807d7b2fbb6c1be59d76433611499f113ee73 assets/thedeep/models/block/elderkelp_trapdoor_top.json
+21819c7f089fd71a12591567543fb5eb75107b04 assets/thedeep/models/block/elderkelp_trapdoor_bottom.json
+7b14610fd2822e14a3aa4c39cd7b1dd0525e1c15 assets/thedeep/models/block/elderkelp_trapdoor_open.json
+bd720c2ea3d0ae9804333e21f7be273d28c5064e assets/thedeep/models/block/elderkelp_trapdoor_top.json
 8f3f2ef7bbcebdbdf27875af4f033320ad4c53c7 assets/thedeep/models/block/fitted_understone_bricks.json
 be9aaa95d83c8166c54bb8403a596d3f8c171066 assets/thedeep/models/block/fitted_understone_brick_slab.json
 db20f8a0bd45d0a5a41cf3e3f0846f8211201444 assets/thedeep/models/block/fitted_understone_brick_slab_top.json

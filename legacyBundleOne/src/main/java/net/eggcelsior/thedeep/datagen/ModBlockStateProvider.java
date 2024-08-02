@@ -108,8 +108,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         axisBlock((RotatedPillarBlock) ModBlocks.CARVED_ELDERKELP.get(), blockTexture(ModBlocks.CARVED_ELDERKELP.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/carved_elderkelp_top"));
 
         doorBlockWithRenderType((DoorBlock) ModBlocks.ELDERKELP_DOOR.get(), modLoc("block/elderkelp_door_bottom"), modLoc("block/elderkelp_door_top"), "cutout");
-        //trapdoorBlockWithRenderType((TrapDoorBlock) ModBlocks.ELDERKELP_TRAPDOOR.get(), modLoc("block/elderkelp_trapdoor"), true, "cutout");
-        trapdoorBlock((TrapDoorBlock) ModBlocks.ELDERKELP_TRAPDOOR.get(), modLoc("block/elderkelp_trapdoor"), true);
+        trapdoorBlockWithRenderType((TrapDoorBlock) ModBlocks.ELDERKELP_TRAPDOOR.get(), modLoc("block/elderkelp_trapdoor"), true, "cutout");
+        //trapdoorBlock((TrapDoorBlock) ModBlocks.ELDERKELP_TRAPDOOR.get(), modLoc("block/elderkelp_trapdoor"), true);
         blockItem(ModBlocks.ELDERKELP_TRAPDOOR, "_bottom");
     }
 
