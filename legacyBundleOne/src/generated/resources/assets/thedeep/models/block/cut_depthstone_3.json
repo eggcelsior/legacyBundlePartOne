@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "thedeep:block/cut_depthstone_3"
+  }
+}

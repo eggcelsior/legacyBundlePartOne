@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import javax.imageio.spi.RegisterableService;
 import java.util.function.Supplier;
 
 public class ModBlocks{
@@ -160,6 +161,62 @@ public class ModBlocks{
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
     public static final RegistryObject<Block> CLEAN_UNDERSTONE_BRICK_STAIRS = registerBlock("clean_understone_brick_stairs",
             () -> new StairBlock(() -> ModBlocks.CLEAN_UNDERSTONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
+    //
+
+    public static final RegistryObject<Block> ULTRAMARINE_ORE = registerBlock("ultramarine_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).requiresCorrectToolForDrops().strength(7), UniformInt.of(3, 100)));
+
+    //buncha depthstone variants incoming
+    public static final RegistryObject<Block> CHISELED_DEPTHSTONE_1 = registerBlock("chiseled_depthstone_1",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> CHISELED_DEPTHSTONE_2 = registerBlock("chiseled_depthstone_2",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> CHISELED_DEPTHSTONE_3 = registerBlock("chiseled_depthstone_3",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> CUT_DEPTHSTONE_1 = registerBlock("cut_depthstone_1",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_GLAZED_TERRACOTTA)));
+
+    public static final RegistryObject<Block> CUT_DEPTHSTONE_2 = registerBlock("cut_depthstone_2",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_GLAZED_TERRACOTTA)));
+
+    public static final RegistryObject<Block> CUT_DEPTHSTONE_3 = registerBlock("cut_depthstone_3",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_GLAZED_TERRACOTTA)));
+
+    public static final RegistryObject<Block> CUT_DEPTHSTONE_4 = registerBlock("cut_depthstone_4",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_GLAZED_TERRACOTTA)));
+
+    public static final RegistryObject<Block> CUT_DEPTHSTONE_5 = registerBlock("cut_depthstone_5",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_GLAZED_TERRACOTTA)));
+
+    public static final RegistryObject<Block> CUT_DEPTHSTONE_6 = registerBlock("cut_depthstone_6",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_GLAZED_TERRACOTTA)));
+
+    public static final RegistryObject<Block> CLEAN_DEPTHSTONE_BRICKS = registerBlock("clean_depthstone_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DARK_DEPTHSTONE_BRICKS = registerBlock("dark_depthstone_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DARK_DEPTHSTONE_MOSAIC = registerBlock("dark_depthstone_mosaic",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DARK_DEPTHSTONE_TILES = registerBlock("dark_depthstone_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DEPTHSTONE_TILES = registerBlock("depthstone_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> WEATHERED_DEPTHSTONE_BRICKS = registerBlock("weathered_depthstone_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DARK_DEPTHSTONE_PILLAR = registerBlock("dark_depthstone_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DEPTHSTONE_PILLAR = registerBlock("depthstone_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
     //
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

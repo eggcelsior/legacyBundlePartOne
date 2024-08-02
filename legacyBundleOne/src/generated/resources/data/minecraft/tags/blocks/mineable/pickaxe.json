@@ -40,6 +40,24 @@
     "thedeep:weathered_understone_brick_slab",
     "thedeep:weathered_understone_brick_stairs",
     "thedeep:clean_understone_brick_slab",
-    "thedeep:clean_understone_brick_stairs"
+    "thedeep:clean_understone_brick_stairs",
+    "thedeep:ultramarine_ore",
+    "thedeep:chiseled_depthstone_1",
+    "thedeep:chiseled_depthstone_2",
+    "thedeep:chiseled_depthstone_3",
+    "thedeep:cut_depthstone_1",
+    "thedeep:cut_depthstone_2",
+    "thedeep:cut_depthstone_3",
+    "thedeep:cut_depthstone_4",
+    "thedeep:cut_depthstone_5",
+    "thedeep:cut_depthstone_6",
+    "thedeep:clean_depthstone_bricks",
+    "thedeep:dark_depthstone_bricks",
+    "thedeep:dark_depthstone_mosaic",
+    "thedeep:dark_depthstone_tiles",
+    "thedeep:depthstone_tiles",
+    "thedeep:weathered_depthstone_bricks",
+    "thedeep:dark_depthstone_pillar",
+    "thedeep:depthstone_pillar"
   ]
 }

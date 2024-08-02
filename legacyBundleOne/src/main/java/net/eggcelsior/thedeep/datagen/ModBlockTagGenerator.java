@@ -60,7 +60,25 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.WEATHERED_UNDERSTONE_BRICK_SLAB.get(),
                         ModBlocks.WEATHERED_UNDERSTONE_BRICK_STAIRS.get(),
                         ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB.get(),
-                        ModBlocks.CLEAN_UNDERSTONE_BRICK_STAIRS.get());
+                        ModBlocks.CLEAN_UNDERSTONE_BRICK_STAIRS.get(),
+                        ModBlocks.ULTRAMARINE_ORE.get(),
+                        ModBlocks.CHISELED_DEPTHSTONE_1.get(),
+                        ModBlocks.CHISELED_DEPTHSTONE_2.get(),
+                        ModBlocks.CHISELED_DEPTHSTONE_3.get(),
+                        ModBlocks.CUT_DEPTHSTONE_1.get(),
+                        ModBlocks.CUT_DEPTHSTONE_2.get(),
+                        ModBlocks.CUT_DEPTHSTONE_3.get(),
+                        ModBlocks.CUT_DEPTHSTONE_4.get(),
+                        ModBlocks.CUT_DEPTHSTONE_5.get(),
+                        ModBlocks.CUT_DEPTHSTONE_6.get(),
+                        ModBlocks.CLEAN_DEPTHSTONE_BRICKS.get(),
+                        ModBlocks.DARK_DEPTHSTONE_BRICKS.get(),
+                        ModBlocks.DARK_DEPTHSTONE_MOSAIC.get(),
+                        ModBlocks.DARK_DEPTHSTONE_TILES.get(),
+                        ModBlocks.DEPTHSTONE_TILES.get(),
+                        ModBlocks.WEATHERED_DEPTHSTONE_BRICKS.get(),
+                        ModBlocks.DARK_DEPTHSTONE_PILLAR.get(),
+                        ModBlocks.DEPTHSTONE_PILLAR.get());
 
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.ELDERKELP_STEM.get(),
@@ -121,7 +139,25 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB.get(),
                         ModBlocks.CLEAN_UNDERSTONE_BRICK_STAIRS.get(),
                         ModBlocks.ELDERKELP_DOOR.get(),
-                        ModBlocks.ELDERKELP_TRAPDOOR.get());
+                        ModBlocks.ELDERKELP_TRAPDOOR.get(),
+                        ModBlocks.ULTRAMARINE_ORE.get(),
+                        ModBlocks.CHISELED_DEPTHSTONE_1.get(),
+                        ModBlocks.CHISELED_DEPTHSTONE_2.get(),
+                        ModBlocks.CHISELED_DEPTHSTONE_3.get(),
+                        ModBlocks.CUT_DEPTHSTONE_1.get(),
+                        ModBlocks.CUT_DEPTHSTONE_2.get(),
+                        ModBlocks.CUT_DEPTHSTONE_3.get(),
+                        ModBlocks.CUT_DEPTHSTONE_4.get(),
+                        ModBlocks.CUT_DEPTHSTONE_5.get(),
+                        ModBlocks.CUT_DEPTHSTONE_6.get(),
+                        ModBlocks.CLEAN_DEPTHSTONE_BRICKS.get(),
+                        ModBlocks.DARK_DEPTHSTONE_BRICKS.get(),
+                        ModBlocks.DARK_DEPTHSTONE_MOSAIC.get(),
+                        ModBlocks.DARK_DEPTHSTONE_TILES.get(),
+                        ModBlocks.DEPTHSTONE_TILES.get(),
+                        ModBlocks.WEATHERED_DEPTHSTONE_BRICKS.get(),
+                        ModBlocks.DARK_DEPTHSTONE_PILLAR.get(),
+                        ModBlocks.DEPTHSTONE_PILLAR.get());
         /*this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
                 .add(ModBlocks.ALEXANDRITE_ORE.get()).addTag(Tags.Blocks.ORES);
 

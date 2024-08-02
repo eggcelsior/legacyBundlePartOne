@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "thedeep:block/dark_depthstone_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "thedeep:block/dark_depthstone_pillar"
+    },
+    "axis=z": {
+      "model": "thedeep:block/dark_depthstone_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

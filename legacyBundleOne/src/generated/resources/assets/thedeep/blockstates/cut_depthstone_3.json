@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "thedeep:block/cut_depthstone_3",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "thedeep:block/cut_depthstone_3"
+    },
+    "facing=south": {
+      "model": "thedeep:block/cut_depthstone_3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thedeep:block/cut_depthstone_3",
+      "y": 270
+    }
+  }
+}

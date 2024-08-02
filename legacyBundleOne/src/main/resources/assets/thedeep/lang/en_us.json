@@ -5,7 +5,26 @@
   "block.thedeep.cobbled_depthstone": "Cobbled Depthstone",
   "block.thedeep.depthstone_bricks": "Depthstone Bricks",
   "block.thedeep.chiseled_depthstone": "Chiseled Depthstone",
+  "block.thedeep.chiseled_depthstone_1": "Chiseled Depthstone",
+  "block.thedeep.chiseled_depthstone_2": "Chiseled Depthstone",
+  "block.thedeep.chiseled_depthstone_3": "Chiseled Depthstone",
   "block.thedeep.polished_depthstone": "Polished Depthstone",
+
+  "block.thedeep.cut_depthstone_1": "Cut Depthstone",
+  "block.thedeep.cut_depthstone_2": "Cut Depthstone",
+  "block.thedeep.cut_depthstone_3": "Cut Depthstone",
+  "block.thedeep.cut_depthstone_4": "Cut Depthstone",
+  "block.thedeep.cut_depthstone_5": "Cut Depthstone",
+  "block.thedeep.cut_depthstone_6": "Cut Depthstone",
+
+  "block.thedeep.clean_depthstone_bricks": "Clean Depthstone Bricks",
+  "block.thedeep.dark_depthstone_bricks": "Dark Depthstone Bricks",
+  "block.thedeep.dark_depthstone_mosaic": "Dark Depthstone Mosaic",
+  "block.thedeep.dark_depthstone_tiles": "Dark Depthstone Tiles",
+  "block.thedeep.depthstone_tiles": "Depthstone Tiles",
+  "block.thedeep.weathered_depthstone_bricks": "Weathered Depthstone Bricks",
+  "block.thedeep.dark_depthstone_pillar": "Dark Depthstone Pillar",
+  "block.thedeep.depthstone_pillar": "Depthstone Pillar",
 
   "block.thedeep.depthstone_stairs": "Depthstone Stairs",
   "block.thedeep.polished_depthstone_stairs": "Polished Depthstone Stairs",
@@ -56,5 +75,7 @@
   "block.thedeep.weathered_elderkelp_plank_stairs": "Weathered Elderkelp Plank Stairs",
   "block.thedeep.weathered_elderkelp_plank_slabs": "Weathered Elderkelp Plank Slabs",
   "block.thedeep.elderkelp_door": "Elderkelp Door",
-  "block.thedeep.elderkelp_trapdoor": "Elderkelp Trapdoor"
+  "block.thedeep.elderkelp_trapdoor": "Elderkelp Trapdoor",
+
+  "block.thedeep.ultramarine_ore": "Ultramarine Ore"
 }

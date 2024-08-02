@@ -2,15 +2,20 @@ package net.eggcelsior.thedeep.datagen;
 
 import net.eggcelsior.thedeep.TheDeepMod;
 import net.eggcelsior.thedeep.block.ModBlocks;
+import net.minecraft.core.Direction;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.function.Function;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -24,6 +29,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.CHISELED_DEPTHSTONE);
         blockWithItem(ModBlocks.POLISHED_DEPTHSTONE);
         blockWithItem(ModBlocks.COBBLED_DEPTHSTONE);
+        blockWithItem(ModBlocks.CHISELED_DEPTHSTONE_1);
+        blockWithItem(ModBlocks.CHISELED_DEPTHSTONE_2);
+        blockWithItem(ModBlocks.CHISELED_DEPTHSTONE_3);
+        blockWithItem(ModBlocks.CLEAN_DEPTHSTONE_BRICKS);
+        blockWithItem(ModBlocks.DARK_DEPTHSTONE_BRICKS);
+        blockWithItem(ModBlocks.DARK_DEPTHSTONE_MOSAIC);
+        blockWithItem(ModBlocks.DARK_DEPTHSTONE_TILES);
+        blockWithItem(ModBlocks.DEPTHSTONE_TILES);
+        blockWithItem(ModBlocks.WEATHERED_DEPTHSTONE_BRICKS);
 
         blockWithItem(ModBlocks.UNDERSTONE);
         //blockWithItem(ModBlocks.UNDERSTONE_PILLAR);
@@ -45,6 +59,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ULTRAMARINE_BLOCK);
         blockWithItem(ModBlocks.ULTRAMARINE_GRATE);
         blockWithItem(ModBlocks.ULTRAMARINE_LAMP);
+        blockWithItem(ModBlocks.ULTRAMARINE_ORE);
 
         blockWithItem(ModBlocks.ELDERKELP_STEM);
 
@@ -77,6 +92,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.WEATHERED_UNDERSTONE_BRICK_STAIRS);
         blockItem(ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB);
         blockItem(ModBlocks.CLEAN_UNDERSTONE_BRICK_STAIRS);
+        blockItem(ModBlocks.CUT_DEPTHSTONE_1);
+        blockItem(ModBlocks.CUT_DEPTHSTONE_2);
+        blockItem(ModBlocks.CUT_DEPTHSTONE_3);
+        blockItem(ModBlocks.CUT_DEPTHSTONE_4);
+        blockItem(ModBlocks.CUT_DEPTHSTONE_5);
+        blockItem(ModBlocks.CUT_DEPTHSTONE_6);
+        blockItem(ModBlocks.DARK_DEPTHSTONE_PILLAR);
+        blockItem(ModBlocks.DEPTHSTONE_PILLAR);
 
         stairsBlock((StairBlock) ModBlocks.UNDERSTONE_TILE_STAIRS.get(), blockTexture(ModBlocks.UNDERSTONE_TILES.get()));
         stairsBlock((StairBlock) ModBlocks.UNDERSTONE_STAIRS.get(), blockTexture(ModBlocks.UNDERSTONE.get()));
@@ -107,6 +130,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
         axisBlock((RotatedPillarBlock) ModBlocks.UNDERSTONE_PILLAR.get(), blockTexture(ModBlocks.UNDERSTONE_PILLAR.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/understone_pillar_top"));
         axisBlock((RotatedPillarBlock) ModBlocks.CARVED_ELDERKELP.get(), blockTexture(ModBlocks.CARVED_ELDERKELP.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/carved_elderkelp_top"));
 
+        axisBlock((RotatedPillarBlock) ModBlocks.DARK_DEPTHSTONE_PILLAR.get(), blockTexture(ModBlocks.DARK_DEPTHSTONE_PILLAR.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/dark_depthstone_pillar_top"));
+        axisBlock((RotatedPillarBlock) ModBlocks.DEPTHSTONE_PILLAR.get(), blockTexture(ModBlocks.DEPTHSTONE_PILLAR.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/depthstone_pillar_top"));
+
+        glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_1.get(), "cut_depthstone_1");
+        glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_2.get(), "cut_depthstone_2");
+        glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_3.get(), "cut_depthstone_3");
+        glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_4.get(), "cut_depthstone_4");
+        glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_5.get(), "cut_depthstone_5");
+        glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_6.get(), "cut_depthstone_6");
+
         doorBlockWithRenderType((DoorBlock) ModBlocks.ELDERKELP_DOOR.get(), modLoc("block/elderkelp_door_bottom"), modLoc("block/elderkelp_door_top"), "cutout");
         trapdoorBlockWithRenderType((TrapDoorBlock) ModBlocks.ELDERKELP_TRAPDOOR.get(), modLoc("block/elderkelp_trapdoor"), true, "cutout");
         //trapdoorBlock((TrapDoorBlock) ModBlocks.ELDERKELP_TRAPDOOR.get(), modLoc("block/elderkelp_trapdoor"), true);
@@ -123,5 +156,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
+    }
+
+    private void glazedTerracottaBlock(Block block, String name) {
+        ModelFile model = models().cubeAll(name, new ResourceLocation(TheDeepMod.MOD_ID, "block/" + name));
+        getVariantBuilder(block)
+                .partialState().with(BlockStateProperties.HORIZONTAL_FACING, Direction.NORTH).modelForState().modelFile(model).addModel()
+                .partialState().with(BlockStateProperties.HORIZONTAL_FACING, Direction.EAST).modelForState().modelFile(model).rotationY(90).addModel()
+                .partialState().with(BlockStateProperties.HORIZONTAL_FACING, Direction.SOUTH).modelForState().modelFile(model).rotationY(180).addModel()
+                .partialState().with(BlockStateProperties.HORIZONTAL_FACING, Direction.WEST).modelForState().modelFile(model).rotationY(270).addModel();
     }
 }

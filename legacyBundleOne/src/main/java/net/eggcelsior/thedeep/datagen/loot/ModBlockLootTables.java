@@ -3,7 +3,11 @@ package net.eggcelsior.thedeep.datagen.loot;
 import net.eggcelsior.thedeep.block.ModBlocks;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Set;
@@ -16,10 +20,29 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropOther(ModBlocks.DEPTHSTONE.get(), ModBlocks.COBBLED_DEPTHSTONE.get());
-        //this.dropSelf(ModBlocks.DEPTHSTONE.get());
+        //this.dropOther(ModBlocks.ULTRAMARINE_ORE.get(), ModBlocks.COBBLED_UNDERSTONE.get());
+
         this.dropSelf(ModBlocks.DEPTHSTONE_BRICKS.get());
         this.dropSelf(ModBlocks.POLISHED_DEPTHSTONE.get());
         this.dropSelf(ModBlocks.CHISELED_DEPTHSTONE.get());
+        this.dropSelf(ModBlocks.CHISELED_DEPTHSTONE_1.get());
+        this.dropSelf(ModBlocks.CHISELED_DEPTHSTONE_2.get());
+        this.dropSelf(ModBlocks.CHISELED_DEPTHSTONE_3.get());
+        this.dropSelf(ModBlocks.CUT_DEPTHSTONE_1.get());
+        this.dropSelf(ModBlocks.CUT_DEPTHSTONE_2.get());
+        this.dropSelf(ModBlocks.CUT_DEPTHSTONE_3.get());
+        this.dropSelf(ModBlocks.CUT_DEPTHSTONE_4.get());
+        this.dropSelf(ModBlocks.CUT_DEPTHSTONE_5.get());
+        this.dropSelf(ModBlocks.CUT_DEPTHSTONE_6.get());
+
+        this.dropSelf(ModBlocks.CLEAN_DEPTHSTONE_BRICKS.get());
+        this.dropSelf(ModBlocks.DARK_DEPTHSTONE_BRICKS.get());
+        this.dropSelf(ModBlocks.DARK_DEPTHSTONE_MOSAIC.get());
+        this.dropSelf(ModBlocks.DARK_DEPTHSTONE_TILES.get());
+        this.dropSelf(ModBlocks.DEPTHSTONE_TILES.get());
+        this.dropSelf(ModBlocks.WEATHERED_DEPTHSTONE_BRICKS.get());
+        this.dropSelf(ModBlocks.DARK_DEPTHSTONE_PILLAR.get());
+        this.dropSelf(ModBlocks.DEPTHSTONE_PILLAR.get());
 
         this.dropSelf(ModBlocks.DEPTHSTONE_STAIRS.get());
         this.dropSelf(ModBlocks.DEPTHSTONE_BRICK_STAIRS.get());
@@ -87,6 +110,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.WEATHERED_UNDERSTONE_BRICK_SLAB.get()));
         this.add(ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB.get()));
+        this.add(ModBlocks.ULTRAMARINE_ORE.get(),
+                block -> createOreDrop(ModBlocks.ULTRAMARINE_ORE.get(), Items.NETHERITE_INGOT));
     }
 
     @Override
