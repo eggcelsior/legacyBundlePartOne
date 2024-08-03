@@ -86,7 +86,7 @@ public class ModBlocks{
     public static final RegistryObject<Block> ULTRAMARINE_BLOCK = registerBlock("ultramarine_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     public static final RegistryObject<Block> ULTRAMARINE_GRATE = registerBlock("ultramarine_grate",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).noOcclusion()));
     public static final RegistryObject<Block> ULTRAMARINE_LAMP = registerBlock("ultramarine_lantern",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).requiresCorrectToolForDrops().strength(7)));
 
@@ -217,6 +217,43 @@ public class ModBlocks{
 
     public static final RegistryObject<Block> DEPTHSTONE_PILLAR = registerBlock("depthstone_pillar",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    //buncha slabs and stairs now
+    public static final RegistryObject<Block> CLEAN_DEPTHSTONE_BRICK_SLAB = registerBlock("clean_depthstone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DARK_DEPTHSTONE_BRICK_SLAB = registerBlock("dark_depthstone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DARK_DEPTHSTONE_MOSAIC_SLAB = registerBlock("dark_depthstone_mosaic_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DARK_DEPTHSTONE_TILES_SLAB = registerBlock("dark_depthstone_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DEPTHSTONE_TILES_SLAB = registerBlock("depthstone_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> WEATHERED_DEPTHSTONE_BRICK_SLAB = registerBlock("weathered_depthstone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    //stairs
+    public static final RegistryObject<Block> CLEAN_DEPTHSTONE_BRICK_STAIRS = registerBlock("clean_depthstone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.CLEAN_DEPTHSTONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DARK_DEPTHSTONE_BRICK_STAIRS = registerBlock("dark_depthstone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.DARK_DEPTHSTONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DARK_DEPTHSTONE_MOSAIC_STAIRS = registerBlock("dark_depthstone_mosaic_stairs",
+            () -> new StairBlock(() -> ModBlocks.DARK_DEPTHSTONE_MOSAIC.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DARK_DEPTHSTONE_TILES_STAIRS = registerBlock("dark_depthstone_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.DARK_DEPTHSTONE_TILES.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DEPTHSTONE_TILES_STAIRS = registerBlock("depthstone_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.DEPTHSTONE_TILES.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> WEATHERED_DEPTHSTONE_BRICK_STAIRS = registerBlock("weathered_depthstone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.WEATHERED_DEPTHSTONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
+
     //
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

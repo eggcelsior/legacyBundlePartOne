@@ -1,6 +1,7 @@
 package net.eggcelsior.thedeep.datagen.loot;
 
 import net.eggcelsior.thedeep.block.ModBlocks;
+import net.eggcelsior.thedeep.item.ModItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
@@ -43,6 +44,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WEATHERED_DEPTHSTONE_BRICKS.get());
         this.dropSelf(ModBlocks.DARK_DEPTHSTONE_PILLAR.get());
         this.dropSelf(ModBlocks.DEPTHSTONE_PILLAR.get());
+
+        this.dropSelf(ModBlocks.CLEAN_DEPTHSTONE_BRICK_STAIRS.get());
+        this.dropSelf(ModBlocks.DARK_DEPTHSTONE_BRICK_STAIRS.get());
+        this.dropSelf(ModBlocks.DARK_DEPTHSTONE_MOSAIC_STAIRS.get());
+        this.dropSelf(ModBlocks.DARK_DEPTHSTONE_TILES_STAIRS.get());
+        this.dropSelf(ModBlocks.DEPTHSTONE_TILES_STAIRS.get());
+        this.dropSelf(ModBlocks.WEATHERED_DEPTHSTONE_BRICK_STAIRS.get());
 
         this.dropSelf(ModBlocks.DEPTHSTONE_STAIRS.get());
         this.dropSelf(ModBlocks.DEPTHSTONE_BRICK_STAIRS.get());
@@ -111,7 +119,20 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB.get()));
         this.add(ModBlocks.ULTRAMARINE_ORE.get(),
-                block -> createOreDrop(ModBlocks.ULTRAMARINE_ORE.get(), Items.NETHERITE_INGOT));
+                block -> createOreDrop(ModBlocks.ULTRAMARINE_ORE.get(), ModItems.RAW_ULTRAMARINE.get()));
+
+        this.add(ModBlocks.DARK_DEPTHSTONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DARK_DEPTHSTONE_BRICK_SLAB.get()));
+        this.add(ModBlocks.CLEAN_DEPTHSTONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CLEAN_DEPTHSTONE_BRICK_SLAB.get()));
+        this.add(ModBlocks.DARK_DEPTHSTONE_MOSAIC_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DARK_DEPTHSTONE_MOSAIC_SLAB.get()));
+        this.add(ModBlocks.DARK_DEPTHSTONE_TILES_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DARK_DEPTHSTONE_TILES_SLAB.get()));
+        this.add(ModBlocks.DEPTHSTONE_TILES_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DEPTHSTONE_TILES_SLAB.get()));
+        this.add(ModBlocks.WEATHERED_DEPTHSTONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.WEATHERED_DEPTHSTONE_BRICK_SLAB.get()));
     }
 
     @Override

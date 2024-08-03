@@ -64,6 +64,18 @@
     "thedeep:depthstone_tiles",
     "thedeep:weathered_depthstone_bricks",
     "thedeep:dark_depthstone_pillar",
-    "thedeep:depthstone_pillar"
+    "thedeep:depthstone_pillar",
+    "thedeep:clean_depthstone_brick_slab",
+    "thedeep:dark_depthstone_brick_slab",
+    "thedeep:dark_depthstone_mosaic_slab",
+    "thedeep:dark_depthstone_tile_slab",
+    "thedeep:depthstone_tile_slab",
+    "thedeep:weathered_depthstone_brick_slab",
+    "thedeep:clean_depthstone_brick_stairs",
+    "thedeep:dark_depthstone_brick_stairs",
+    "thedeep:dark_depthstone_mosaic_stairs",
+    "thedeep:dark_depthstone_tile_stairs",
+    "thedeep:depthstone_tile_stairs",
+    "thedeep:weathered_depthstone_brick_stairs"
   ]
 }

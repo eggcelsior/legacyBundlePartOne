@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-02T00:01:37.6432185	Block Tags
+// 1.20.1	2024-08-02T15:33:45.1697956	Block Tags
 65267f9d42a56e07b493c69b64bb2ed425cde20d data/minecraft/tags/blocks/mineable/axe.json
-3810e8038914b059cf1e0ef1745abc2826b1a68e data/minecraft/tags/blocks/mineable/pickaxe.json
-530196986ea1441b7d42fd09e34665f2f56b2e04 data/minecraft/tags/blocks/needs_iron_tool.json
+3dda7c107043a0534d8fca946de271f6a19abc58 data/minecraft/tags/blocks/mineable/pickaxe.json
+3c4bce9145d751918b16abf4cf5a6a179258f20e data/minecraft/tags/blocks/needs_iron_tool.json

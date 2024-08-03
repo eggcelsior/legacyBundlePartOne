@@ -78,7 +78,19 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DEPTHSTONE_TILES.get(),
                         ModBlocks.WEATHERED_DEPTHSTONE_BRICKS.get(),
                         ModBlocks.DARK_DEPTHSTONE_PILLAR.get(),
-                        ModBlocks.DEPTHSTONE_PILLAR.get());
+                        ModBlocks.DEPTHSTONE_PILLAR.get(),
+                        ModBlocks.CLEAN_DEPTHSTONE_BRICK_SLAB.get(),
+                        ModBlocks.DARK_DEPTHSTONE_BRICK_SLAB.get(),
+                        ModBlocks.DARK_DEPTHSTONE_MOSAIC_SLAB.get(),
+                        ModBlocks.DARK_DEPTHSTONE_TILES_SLAB.get(),
+                        ModBlocks.DEPTHSTONE_TILES_SLAB.get(),
+                        ModBlocks.WEATHERED_DEPTHSTONE_BRICK_SLAB.get(),
+                        ModBlocks.CLEAN_DEPTHSTONE_BRICK_STAIRS.get(),
+                        ModBlocks.DARK_DEPTHSTONE_BRICK_STAIRS.get(),
+                        ModBlocks.DARK_DEPTHSTONE_MOSAIC_STAIRS.get(),
+                        ModBlocks.DARK_DEPTHSTONE_TILES_STAIRS.get(),
+                        ModBlocks.DEPTHSTONE_TILES_STAIRS.get(),
+                        ModBlocks.WEATHERED_DEPTHSTONE_BRICK_STAIRS.get());
 
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.ELDERKELP_STEM.get(),
@@ -157,7 +169,19 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DEPTHSTONE_TILES.get(),
                         ModBlocks.WEATHERED_DEPTHSTONE_BRICKS.get(),
                         ModBlocks.DARK_DEPTHSTONE_PILLAR.get(),
-                        ModBlocks.DEPTHSTONE_PILLAR.get());
+                        ModBlocks.DEPTHSTONE_PILLAR.get(),
+                        ModBlocks.CLEAN_DEPTHSTONE_BRICK_SLAB.get(),
+                        ModBlocks.DARK_DEPTHSTONE_BRICK_SLAB.get(),
+                        ModBlocks.DARK_DEPTHSTONE_MOSAIC_SLAB.get(),
+                        ModBlocks.DARK_DEPTHSTONE_TILES_SLAB.get(),
+                        ModBlocks.DEPTHSTONE_TILES_SLAB.get(),
+                        ModBlocks.WEATHERED_DEPTHSTONE_BRICK_SLAB.get(),
+                        ModBlocks.CLEAN_DEPTHSTONE_BRICK_STAIRS.get(),
+                        ModBlocks.DARK_DEPTHSTONE_BRICK_STAIRS.get(),
+                        ModBlocks.DARK_DEPTHSTONE_MOSAIC_STAIRS.get(),
+                        ModBlocks.DARK_DEPTHSTONE_TILES_STAIRS.get(),
+                        ModBlocks.DEPTHSTONE_TILES_STAIRS.get(),
+                        ModBlocks.WEATHERED_DEPTHSTONE_BRICK_STAIRS.get());
         /*this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
                 .add(ModBlocks.ALEXANDRITE_ORE.get()).addTag(Tags.Blocks.ORES);
 

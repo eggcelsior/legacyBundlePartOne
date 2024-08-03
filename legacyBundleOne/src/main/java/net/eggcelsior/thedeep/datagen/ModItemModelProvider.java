@@ -2,6 +2,7 @@ package net.eggcelsior.thedeep.datagen;
 
 import net.eggcelsior.thedeep.TheDeepMod;
 import net.eggcelsior.thedeep.block.ModBlocks;
+import net.eggcelsior.thedeep.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -20,6 +21,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleBlockItem(ModBlocks.ELDERKELP_DOOR); //otherwise in the inventory the door would render as the 3d model
+        simpleItem(ModItems.RAW_ULTRAMARINE);
     }
 
     public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {

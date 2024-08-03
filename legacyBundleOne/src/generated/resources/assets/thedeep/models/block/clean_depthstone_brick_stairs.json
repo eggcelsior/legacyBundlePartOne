@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "thedeep:block/clean_depthstone_bricks",
+    "side": "thedeep:block/clean_depthstone_bricks",
+    "top": "thedeep:block/clean_depthstone_bricks"
+  }
+}
