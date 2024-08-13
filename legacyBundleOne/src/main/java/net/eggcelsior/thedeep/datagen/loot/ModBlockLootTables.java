@@ -92,6 +92,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WEATHERED_ELDERKELP_PLANK_STAIRS.get());
         this.dropSelf(ModBlocks.ELDERKELP_TRAPDOOR.get());
 
+        this.dropSelf(ModBlocks.EXOTIC_SCULK.get());
+
         this.dropSelf(ModBlocks.WEATHERED_UNDERSTONE_BRICK_WALL.get());
         this.dropSelf(ModBlocks.CLEAN_UNDERSTONE_BRICK_WALL.get());
         this.dropSelf(ModBlocks.FITTED_UNDERSTONE_BRICK_WALL.get());

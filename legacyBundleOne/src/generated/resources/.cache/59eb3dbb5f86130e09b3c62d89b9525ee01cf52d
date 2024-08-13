@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-12T14:03:07.5965634	Loot Tables
+// 1.20.1	2024-08-12T18:52:53.1070444	Loot Tables
 8a5928726daeb6b46d2009345f2e2fc09a00ab72 data/thedeep/loot_tables/blocks/carved_elderkelp.json
 b7ff05e3186b35ebd473dfb5aa9f930de397c690 data/thedeep/loot_tables/blocks/chiseled_depthstone.json
 5335513afd02f581843adaec3021c142da7420ec data/thedeep/loot_tables/blocks/chiseled_depthstone_1.json
@@ -57,6 +57,7 @@ e49515bd7b0d5298df6d86261497c7fb3149dbac data/thedeep/loot_tables/blocks/elderke
 ef81216296b3200fd6ba4da0e6dde227faa94542 data/thedeep/loot_tables/blocks/elderkelp_plank_stairs.json
 77253485d557623ea2d2c76503ada5cc62240c4a data/thedeep/loot_tables/blocks/elderkelp_stem.json
 9ae44dd18cea75002037e4fad6e2087a24305017 data/thedeep/loot_tables/blocks/elderkelp_trapdoor.json
+7bd41df2b038ae2680f3dd87458d3a1a3e05e578 data/thedeep/loot_tables/blocks/exotic_sculk.json
 abe5b306c6daad6b213ed59959578d3fa7983843 data/thedeep/loot_tables/blocks/fitted_understone_bricks.json
 9e651228c36cd45e3e6276def969341732788605 data/thedeep/loot_tables/blocks/fitted_understone_brick_slab.json
 75bc25bdddd917fd66fb8f6b67376e1f9c326392 data/thedeep/loot_tables/blocks/fitted_understone_brick_stairs.json

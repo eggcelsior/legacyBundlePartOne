@@ -270,6 +270,10 @@ public class ModBlocks{
     public static final RegistryObject<Block> DEPTHSTONE_BRICK_WALL = registerBlock("depthstone_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
     //
+
+    public static final RegistryObject<Block> EXOTIC_SCULK = registerBlock("exotic_sculk",
+            () -> new SculkBlock(BlockBehaviour.Properties.copy(Blocks.SCULK)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

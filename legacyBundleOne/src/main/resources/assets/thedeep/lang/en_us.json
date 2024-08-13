@@ -101,5 +101,7 @@
 
   "block.thedeep.weathered_depthstone_brick_wall": "Weathered Depthstone Brick Wall",
   "block.thedeep.clean_depthstone_brick_wall": "Clean Depthstone Brick Wall",
-  "block.thedeep.depthstone_brick_wall": "Depthstone Brick Wall"
+  "block.thedeep.depthstone_brick_wall": "Depthstone Brick Wall",
+
+  "block.thedeep.exotic_sculk": "Exotic Sculk"
 }

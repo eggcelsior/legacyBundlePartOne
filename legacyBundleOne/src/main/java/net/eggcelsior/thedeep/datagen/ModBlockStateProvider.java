@@ -61,6 +61,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ULTRAMARINE_LAMP);
         blockWithItem(ModBlocks.ULTRAMARINE_ORE);
 
+        blockWithItem(ModBlocks.EXOTIC_SCULK);
+
         blockWithItem(ModBlocks.ELDERKELP_STEM);
 
         blockItem(ModBlocks.DEPTHSTONE_STAIRS);

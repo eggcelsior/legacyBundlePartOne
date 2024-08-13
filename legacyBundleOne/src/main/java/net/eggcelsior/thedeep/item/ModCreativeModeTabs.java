@@ -125,6 +125,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WEATHERED_ELDERKELP_PLANK_SLAB.get());
                         output.accept(ModBlocks.ELDERKELP_DOOR.get());
                         output.accept(ModBlocks.ELDERKELP_TRAPDOOR.get());
+
+                        output.accept(ModBlocks.EXOTIC_SCULK.get());
                     }).build());
 
 
