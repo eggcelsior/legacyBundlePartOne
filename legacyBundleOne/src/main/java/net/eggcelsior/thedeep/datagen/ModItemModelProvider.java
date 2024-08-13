@@ -22,6 +22,15 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleBlockItem(ModBlocks.ELDERKELP_DOOR); //otherwise in the inventory the door would render as the 3d model
         simpleItem(ModItems.RAW_ULTRAMARINE);
+
+        wallItem(ModBlocks.WEATHERED_UNDERSTONE_BRICK_WALL, ModBlocks.UNDERSTONE);
+        wallItem(ModBlocks.CLEAN_UNDERSTONE_BRICK_WALL, ModBlocks.UNDERSTONE);
+        wallItem(ModBlocks.FITTED_UNDERSTONE_BRICK_WALL, ModBlocks.UNDERSTONE);
+
+        wallItem(ModBlocks.WEATHERED_DEPTHSTONE_BRICK_WALL, ModBlocks.DEPTHSTONE);
+        wallItem(ModBlocks.CLEAN_DEPTHSTONE_BRICK_WALL, ModBlocks.DEPTHSTONE);
+        wallItem(ModBlocks.DEPTHSTONE_BRICK_WALL, ModBlocks.DEPTHSTONE);
+
     }
 
     public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {

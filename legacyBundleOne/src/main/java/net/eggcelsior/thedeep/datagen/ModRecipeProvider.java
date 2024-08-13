@@ -2,10 +2,13 @@ package net.eggcelsior.thedeep.datagen;
 
 import net.eggcelsior.thedeep.TheDeepMod;
 import net.eggcelsior.thedeep.block.ModBlocks;
+import net.eggcelsior.thedeep.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -16,6 +19,8 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
+
+    private static final List<ItemLike> ULTRAMARINE_SMELTABLES = List.of(ModItems.RAW_ULTRAMARINE.get());
 
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
@@ -28,6 +33,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         stonecutterResultFromBase(pWriter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.UNDERSTONE_TILE_SLAB.get(), ModBlocks.UNDERSTONE_TILES.get(), 2);
         stonecutterResultFromBase(pWriter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.UNDERSTONE_TILE_STAIRS.get(), ModBlocks.UNDERSTONE_TILES.get(), 6);
         stonecutterResultFromBase(pWriter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.UNDERSTONE_TILES.get(), ModBlocks.UNDERSTONE.get(), 1);
+
+        oreSmelting(pWriter, ULTRAMARINE_SMELTABLES, RecipeCategory.MISC, Items.NETHERITE_INGOT, 0.25f, 200, "ultramarine");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ELDERKELP_PLANKS.get(), 4).requires(ModBlocks.ELDERKELP_STEM.get())
                 .unlockedBy("has_elderkelp_stem", inventoryTrigger(ItemPredicate.Builder.item()

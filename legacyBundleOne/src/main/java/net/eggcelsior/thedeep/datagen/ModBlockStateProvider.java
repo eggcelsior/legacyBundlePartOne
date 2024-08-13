@@ -160,13 +160,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         axisBlock((RotatedPillarBlock) ModBlocks.DARK_DEPTHSTONE_PILLAR.get(), blockTexture(ModBlocks.DARK_DEPTHSTONE_PILLAR.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/dark_depthstone_pillar_top"));
         axisBlock((RotatedPillarBlock) ModBlocks.DEPTHSTONE_PILLAR.get(), blockTexture(ModBlocks.DEPTHSTONE_PILLAR.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/depthstone_pillar_top"));
-        
+
         glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_1.get(), "cut_depthstone_1");
         glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_2.get(), "cut_depthstone_2");
         glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_3.get(), "cut_depthstone_3");
         glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_4.get(), "cut_depthstone_4");
         glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_5.get(), "cut_depthstone_5");
         glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_6.get(), "cut_depthstone_6");
+
+        wallBlock((WallBlock) ModBlocks.WEATHERED_UNDERSTONE_BRICK_WALL.get(), blockTexture(ModBlocks.WEATHERED_UNDERSTONE_BRICKS.get()));
+        wallBlock((WallBlock) ModBlocks.CLEAN_UNDERSTONE_BRICK_WALL.get(), blockTexture(ModBlocks.CLEAN_UNDERSTONE_BRICKS.get()));
+        wallBlock((WallBlock) ModBlocks.FITTED_UNDERSTONE_BRICK_WALL.get(), blockTexture(ModBlocks.FITTED_UNDERSTONE_BRICKS.get()));
+
+        wallBlock((WallBlock) ModBlocks.WEATHERED_DEPTHSTONE_BRICK_WALL.get(), blockTexture(ModBlocks.WEATHERED_DEPTHSTONE_BRICKS.get()));
+        wallBlock((WallBlock) ModBlocks.CLEAN_DEPTHSTONE_BRICK_WALL.get(), blockTexture(ModBlocks.CLEAN_DEPTHSTONE_BRICKS.get()));
+        wallBlock((WallBlock) ModBlocks.DEPTHSTONE_BRICK_WALL.get(), blockTexture(ModBlocks.DEPTHSTONE_BRICKS.get()));
 
         doorBlockWithRenderType((DoorBlock) ModBlocks.ELDERKELP_DOOR.get(), modLoc("block/elderkelp_door_bottom"), modLoc("block/elderkelp_door_top"), "cutout");
         trapdoorBlockWithRenderType((TrapDoorBlock) ModBlocks.ELDERKELP_TRAPDOOR.get(), modLoc("block/elderkelp_trapdoor"), true, "cutout");

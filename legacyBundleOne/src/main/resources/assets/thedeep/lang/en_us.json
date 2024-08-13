@@ -3,7 +3,7 @@
 
   "block.thedeep.depthstone": "Depthstone",
   "block.thedeep.cobbled_depthstone": "Cobbled Depthstone",
-  "block.thedeep.depthstone_bricks": "Depthstone Bricks",
+  "block.thedeep.depthstone_bricks": "Cut Depthstone Bricks",
   "block.thedeep.chiseled_depthstone": "Chiseled Depthstone",
   "block.thedeep.chiseled_depthstone_1": "Chiseled Depthstone",
   "block.thedeep.chiseled_depthstone_2": "Chiseled Depthstone",
@@ -93,5 +93,13 @@
 
   "block.thedeep.ultramarine_ore": "Ultramarine Ore",
 
-  "item.thedeep.raw_ultramarine": "Raw Ultramarine"
+  "item.thedeep.raw_ultramarine": "Raw Ultramarine",
+
+  "block.thedeep.weathered_understone_brick_wall": "Weathered Understone Brick Wall",
+  "block.thedeep.clean_understone_brick_wall": "Clean Understone Brick Wall",
+  "block.thedeep.fitted_understone_brick_wall": "Fitted Understone Brick Wall",
+
+  "block.thedeep.weathered_depthstone_brick_wall": "Weathered Depthstone Brick Wall",
+  "block.thedeep.clean_depthstone_brick_wall": "Clean Depthstone Brick Wall",
+  "block.thedeep.depthstone_brick_wall": "Depthstone Brick Wall"
 }

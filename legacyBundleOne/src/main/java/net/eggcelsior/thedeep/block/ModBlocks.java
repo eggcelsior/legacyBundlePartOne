@@ -255,7 +255,21 @@ public class ModBlocks{
             () -> new StairBlock(() -> ModBlocks.WEATHERED_DEPTHSTONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE)));
 
     //
+    //Walls
+    public static final RegistryObject<Block> WEATHERED_UNDERSTONE_BRICK_WALL = registerBlock("weathered_understone_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> CLEAN_UNDERSTONE_BRICK_WALL = registerBlock("clean_understone_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> FITTED_UNDERSTONE_BRICK_WALL = registerBlock("fitted_understone_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
+    public static final RegistryObject<Block> WEATHERED_DEPTHSTONE_BRICK_WALL = registerBlock("weathered_depthstone_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> CLEAN_DEPTHSTONE_BRICK_WALL = registerBlock("clean_depthstone_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> DEPTHSTONE_BRICK_WALL = registerBlock("depthstone_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    //
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

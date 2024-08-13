@@ -76,6 +76,12 @@
     "thedeep:dark_depthstone_mosaic_stairs",
     "thedeep:dark_depthstone_tile_stairs",
     "thedeep:depthstone_tile_stairs",
-    "thedeep:weathered_depthstone_brick_stairs"
+    "thedeep:weathered_depthstone_brick_stairs",
+    "thedeep:weathered_understone_brick_wall",
+    "thedeep:clean_understone_brick_wall",
+    "thedeep:fitted_understone_brick_wall",
+    "thedeep:weathered_depthstone_brick_wall",
+    "thedeep:clean_depthstone_brick_wall",
+    "thedeep:depthstone_brick_wall"
   ]
 }

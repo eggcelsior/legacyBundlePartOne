@@ -65,6 +65,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DARK_DEPTHSTONE_PILLAR.get());
                         output.accept(ModBlocks.DEPTHSTONE_PILLAR.get());
 
+                        output.accept(ModBlocks.WEATHERED_DEPTHSTONE_BRICK_WALL.get());
+                        output.accept(ModBlocks.CLEAN_DEPTHSTONE_BRICK_WALL.get());
+                        output.accept(ModBlocks.DEPTHSTONE_BRICK_WALL.get());
+
                         output.accept(ModBlocks.CUT_DEPTHSTONE_1.get());
                         output.accept(ModBlocks.CUT_DEPTHSTONE_2.get());
                         output.accept(ModBlocks.CUT_DEPTHSTONE_3.get());
@@ -91,6 +95,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WEATHERED_UNDERSTONE_BRICK_SLAB.get());
                         output.accept(ModBlocks.CLEAN_UNDERSTONE_BRICK_STAIRS.get());
                         output.accept(ModBlocks.CLEAN_UNDERSTONE_BRICK_SLAB.get());
+
+                        output.accept(ModBlocks.WEATHERED_UNDERSTONE_BRICK_WALL.get());
+                        output.accept(ModBlocks.CLEAN_UNDERSTONE_BRICK_WALL.get());
+                        output.accept(ModBlocks.FITTED_UNDERSTONE_BRICK_WALL.get());
 
                         output.accept(ModBlocks.CHISELED_UNDERSTONE_1.get());
                         output.accept(ModBlocks.CHISELED_UNDERSTONE_2.get());
