@@ -34,7 +34,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         stonecutterResultFromBase(pWriter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.UNDERSTONE_TILE_STAIRS.get(), ModBlocks.UNDERSTONE_TILES.get(), 6);
         stonecutterResultFromBase(pWriter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.UNDERSTONE_TILES.get(), ModBlocks.UNDERSTONE.get(), 1);
 
-        oreSmelting(pWriter, ULTRAMARINE_SMELTABLES, RecipeCategory.MISC, Items.NETHERITE_INGOT, 0.25f, 200, "ultramarine");
+        oreSmelting(pWriter, ULTRAMARINE_SMELTABLES, RecipeCategory.MISC, ModItems.ULTRAMARINE_INGOT.get(), 0.25f, 200, "ultramarine");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ELDERKELP_PLANKS.get(), 4).requires(ModBlocks.ELDERKELP_STEM.get())
                 .unlockedBy("has_elderkelp_stem", inventoryTrigger(ItemPredicate.Builder.item()

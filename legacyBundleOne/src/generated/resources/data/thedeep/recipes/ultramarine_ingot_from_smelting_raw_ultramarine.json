@@ -7,5 +7,5 @@
   "ingredient": {
     "item": "thedeep:raw_ultramarine"
   },
-  "result": "minecraft:netherite_ingot"
+  "result": "thedeep:ultramarine_ingot"
 }

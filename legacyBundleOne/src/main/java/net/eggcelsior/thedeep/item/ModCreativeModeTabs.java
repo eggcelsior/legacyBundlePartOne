@@ -110,6 +110,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.ULTRAMARINE_ORE.get());
                         output.accept(ModItems.RAW_ULTRAMARINE.get());
+                        output.accept(ModItems.ULTRAMARINE_INGOT.get());
                         output.accept(ModBlocks.CHISELED_ULTRAMARINE.get());
                         output.accept(ModBlocks.ULTRAMARINE_BLOCK.get());
                         output.accept(ModBlocks.ULTRAMARINE_GRATE.get());

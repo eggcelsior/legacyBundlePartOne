@@ -21,7 +21,9 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleBlockItem(ModBlocks.ELDERKELP_DOOR); //otherwise in the inventory the door would render as the 3d model
+
         simpleItem(ModItems.RAW_ULTRAMARINE);
+        simpleItem(ModItems.ULTRAMARINE_INGOT);
 
         wallItem(ModBlocks.WEATHERED_UNDERSTONE_BRICK_WALL, ModBlocks.UNDERSTONE);
         wallItem(ModBlocks.CLEAN_UNDERSTONE_BRICK_WALL, ModBlocks.UNDERSTONE);
