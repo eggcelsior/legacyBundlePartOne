@@ -128,6 +128,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ELDERKELP_TRAPDOOR.get());
 
                         output.accept(ModBlocks.EXOTIC_SCULK.get());
+
+                        output.accept(ModBlocks.BLOOD_ALGAE_FROND.get());
+                        output.accept(ModBlocks.BLOOD_ALGAE_STEM.get());
+                        output.accept(ModBlocks.CARVED_SANGUINE_PILLAR.get());
+                        output.accept(ModBlocks.CARVED_SANGUINE_PLANKS.get());
+                        output.accept(ModBlocks.SANGUINE_PLANKS.get());
                     }).build());
 
 

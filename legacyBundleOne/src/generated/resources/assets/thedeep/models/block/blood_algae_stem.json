@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "thedeep:block/blood_algae_stem_top",
+    "side": "thedeep:block/blood_algae_stem"
+  }
+}

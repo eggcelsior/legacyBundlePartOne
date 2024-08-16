@@ -65,6 +65,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(ModBlocks.ELDERKELP_STEM);
 
+        blockWithItem(ModBlocks.BLOOD_ALGAE_FROND);
+        blockWithItem(ModBlocks.CARVED_SANGUINE_PLANKS);
+        blockWithItem(ModBlocks.SANGUINE_PLANKS);
+
         blockItem(ModBlocks.DEPTHSTONE_STAIRS);
         blockItem(ModBlocks.POLISHED_DEPTHSTONE_STAIRS);
         blockItem(ModBlocks.DEPTHSTONE_BRICK_STAIRS);
@@ -117,6 +121,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.DEPTHSTONE_TILES_STAIRS);
         blockItem(ModBlocks.WEATHERED_DEPTHSTONE_BRICK_STAIRS);
 
+        blockItem(ModBlocks.CARVED_SANGUINE_PILLAR);
+        blockItem(ModBlocks.BLOOD_ALGAE_STEM);
+
         stairsBlock((StairBlock) ModBlocks.UNDERSTONE_TILE_STAIRS.get(), blockTexture(ModBlocks.UNDERSTONE_TILES.get()));
         stairsBlock((StairBlock) ModBlocks.UNDERSTONE_STAIRS.get(), blockTexture(ModBlocks.UNDERSTONE.get()));
         stairsBlock((StairBlock) ModBlocks.COBBLED_UNDERSTONE_STAIRS.get(), blockTexture(ModBlocks.COBBLED_UNDERSTONE.get()));
@@ -162,6 +169,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         axisBlock((RotatedPillarBlock) ModBlocks.DARK_DEPTHSTONE_PILLAR.get(), blockTexture(ModBlocks.DARK_DEPTHSTONE_PILLAR.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/dark_depthstone_pillar_top"));
         axisBlock((RotatedPillarBlock) ModBlocks.DEPTHSTONE_PILLAR.get(), blockTexture(ModBlocks.DEPTHSTONE_PILLAR.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/depthstone_pillar_top"));
+
+        axisBlock((RotatedPillarBlock) ModBlocks.BLOOD_ALGAE_STEM.get(), blockTexture(ModBlocks.BLOOD_ALGAE_STEM.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/blood_algae_stem_top"));
+        axisBlock((RotatedPillarBlock) ModBlocks.CARVED_SANGUINE_PILLAR.get(), blockTexture(ModBlocks.CARVED_SANGUINE_PILLAR.get()), new ResourceLocation(TheDeepMod.MOD_ID, "block/carved_sanguine_pillar_top"));
 
         glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_1.get(), "cut_depthstone_1");
         glazedTerracottaBlock(ModBlocks.CUT_DEPTHSTONE_2.get(), "cut_depthstone_2");

@@ -104,5 +104,11 @@
   "block.thedeep.clean_depthstone_brick_wall": "Clean Depthstone Brick Wall",
   "block.thedeep.depthstone_brick_wall": "Depthstone Brick Wall",
 
-  "block.thedeep.exotic_sculk": "Exotic Sculk"
+  "block.thedeep.exotic_sculk": "Exotic Sculk",
+
+  "block.thedeep.blood_algae_frond": "Blood Algae Frond",
+  "block.thedeep.blood_algae_stem": "Blood Algae Stem",
+  "block.thedeep.carved_sanguine_pillar": "Carved Sanguine Pillar",
+  "block.thedeep.carved_sanguine_planks": "Carved Sanguine Planks",
+  "block.thedeep.sanguine_planks": "Sanguine Planks"
 }

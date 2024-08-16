@@ -271,6 +271,23 @@ public class ModBlocks{
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
     //
 
+    //Blood Algae Stuff
+    public static final RegistryObject<Block> BLOOD_ALGAE_FROND = registerBlock("blood_algae_frond",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_LEAVES)));
+
+    public static final RegistryObject<Block> BLOOD_ALGAE_STEM = registerBlock("blood_algae_stem",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));
+
+    public static final RegistryObject<Block> CARVED_SANGUINE_PILLAR = registerBlock("carved_sanguine_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));
+
+    public static final RegistryObject<Block> CARVED_SANGUINE_PLANKS = registerBlock("carved_sanguine_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+
+    public static final RegistryObject<Block> SANGUINE_PLANKS = registerBlock("sanguine_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    //
+
     public static final RegistryObject<Block> EXOTIC_SCULK = registerBlock("exotic_sculk",
             () -> new SculkBlock(BlockBehaviour.Properties.copy(Blocks.SCULK)));
 

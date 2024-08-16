@@ -1,5 +1,9 @@
-// 1.20.1	2024-08-12T18:52:53.1070444	Loot Tables
+// 1.20.1	2024-08-16T14:58:49.2226854	Loot Tables
+4bba3fdfd01195ce0ba039ceda92d862ecf4da29 data/thedeep/loot_tables/blocks/blood_algae_frond.json
+b402ac81d733a2089d0a92f486932b88a9a5c345 data/thedeep/loot_tables/blocks/blood_algae_stem.json
 8a5928726daeb6b46d2009345f2e2fc09a00ab72 data/thedeep/loot_tables/blocks/carved_elderkelp.json
+e79d63694387d0e1fd3a364c98d32171b8c38379 data/thedeep/loot_tables/blocks/carved_sanguine_pillar.json
+9ed107f5903bfcc5df70da09c06096aea46b2802 data/thedeep/loot_tables/blocks/carved_sanguine_planks.json
 b7ff05e3186b35ebd473dfb5aa9f930de397c690 data/thedeep/loot_tables/blocks/chiseled_depthstone.json
 5335513afd02f581843adaec3021c142da7420ec data/thedeep/loot_tables/blocks/chiseled_depthstone_1.json
 3e9a89bb3db7b91d990c8ddd6c4ed230d671f2ad data/thedeep/loot_tables/blocks/chiseled_depthstone_2.json
@@ -65,6 +69,7 @@ abe5b306c6daad6b213ed59959578d3fa7983843 data/thedeep/loot_tables/blocks/fitted_
 6bc5b632d3d26996df23fbf83e663a480a41170f data/thedeep/loot_tables/blocks/polished_depthstone.json
 4a5f1379eb43f3e54a91007bf604fc1129de6607 data/thedeep/loot_tables/blocks/polished_depthstone_slab.json
 3c79040221b5055d99b192376faf264f75d11879 data/thedeep/loot_tables/blocks/polished_depthstone_stairs.json
+abf194db6aeda62badb05684a852cf778fa1bbf4 data/thedeep/loot_tables/blocks/sanguine_planks.json
 0d970f7c5a4a26e1b40c3fab4250e6770f97b6f0 data/thedeep/loot_tables/blocks/ultramarine_block.json
 742df1fdb1fe7270946ff64acfc7b96664aad41e data/thedeep/loot_tables/blocks/ultramarine_grate.json
 f2df77cc572b7df7dc0221faa45c421fa00a41e3 data/thedeep/loot_tables/blocks/ultramarine_lantern.json

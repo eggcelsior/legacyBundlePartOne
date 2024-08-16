@@ -94,6 +94,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.dropSelf(ModBlocks.EXOTIC_SCULK.get());
 
+        this.dropSelf(ModBlocks.BLOOD_ALGAE_FROND.get());
+        this.dropSelf(ModBlocks.BLOOD_ALGAE_STEM.get());
+        this.dropSelf(ModBlocks.CARVED_SANGUINE_PILLAR.get());
+        this.dropSelf(ModBlocks.CARVED_SANGUINE_PLANKS.get());
+        this.dropSelf(ModBlocks.SANGUINE_PLANKS.get());
+
         this.dropSelf(ModBlocks.WEATHERED_UNDERSTONE_BRICK_WALL.get());
         this.dropSelf(ModBlocks.CLEAN_UNDERSTONE_BRICK_WALL.get());
         this.dropSelf(ModBlocks.FITTED_UNDERSTONE_BRICK_WALL.get());
